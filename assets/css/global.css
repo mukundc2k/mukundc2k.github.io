@@ -1,12 +1,14 @@
 @charset "utf-8";
 body {
-    font-family: "Lato", sans-serif;
+/*     font-family: "Lato", sans-serif; */
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     color: #78CC04;
 }
@@ -21,11 +23,13 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .navbar {
+    font-family: 'Arial Narrow', Arial, sans-serif;
     opacity: 0.95;
     color: #78CC04;
 }
 
 a {
+    font-family: 'Arial Narrow', Arial, sans-serif;
     color: #78CC04;
 }
 
