@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Mukund Choudhary"
 
 positions:
-- name: PhD in NLP @ MBZUAI
+- name: PhD in NLP @ TBA
 # - logo: /assets/images/badges/PKU_red.png
   # name: B.S., Peking University (2021)
 
@@ -20,13 +20,18 @@ linkedin: mukundc2k
 
 short_bio: >-
   Hello! This is a landing page to know most things linguistics about me. I love linguistics, comics, design and more. Starting out with Linguistics Olympiad in high school, then through a masters in Computational Linguistics and a bunch of super different internships & work experiences, I am now joining a Ph.D. in Natural Language Processing!
+  I like to research around problems that need tailor-made & text patterns/analysis driven solutions in domains like low resourced languages, bias-against demographics etc. in the age of trendy NLP.
+  Finally as much as I would dabble in anything linguistic, I also like the more human-related aspects of the field, thus bringing in cognitive sciences like psychology, behavioral experiments in methodology etc.
 
+  Hit me up on my twitter, linkedin, or e-mail if you feel interested in anything around these domains or even if you want some quick recommendations on graphic novels to read over a coffee :)
+  
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
+# - name: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
+- name: To Be Announced (TBA)
   logo: /assets/images/badges/PKU_red.png
   position: Ph.D. in Natural Language Processing
   date: Aug. 2024 - Present
