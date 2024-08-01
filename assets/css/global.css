@@ -3,7 +3,6 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
-    color: #89CC04;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -22,6 +21,11 @@ h1, h2, h3, h4, h5, h6,
 
 .navbar {
     opacity: 0.95;
+    color: #89CC04;
+}
+
+a {
+    color: #89CC04;
 }
 
 .inline-badge {
