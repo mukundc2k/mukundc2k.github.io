@@ -61,6 +61,11 @@
                                             <div>{{ item.position }}</div>
                                             <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
                                         </div>
+                                        {% if item.description %}
+                                        <div class="mt-2 small">
+                                            {{ item.description }}
+                                        </div>
+                                        {% endif %}
                                     </div>
                                 </li>
                                 {% endfor %}
