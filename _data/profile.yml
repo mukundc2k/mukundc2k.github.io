@@ -26,60 +26,58 @@ short_bio: >-
   Hit me up on my twitter, linkedin, or e-mail if you feel interested in anything around these domains or even if you want some quick recommendations on graphic novels to read over a coffee :)
   
 portrait_url: /assets/images/mukund.jpeg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
-education:
-# - name: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
-- name: To Be Announced (TBA)
-  logo: /assets/images/badges/PKU_red.png
-  position: Ph.D. in Natural Language Processing
-  date: Aug. 2024 - Present
+# education:
+# # - name: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
+# - name: To Be Announced (TBA)
+#   logo: /assets/images/badges/PKU_red.png
+#   position: Ph.D. in Natural Language Processing
+#   date: Aug. 2024 - Present
 
-- name: International Institute of Information Technology, Hyderabad (IIIT-H)
-  logo: /assets/images/iiit.png
-  position: B.Tech. in Computer Science and M.S. (by Research) in Computational Linguistics
-  date: 2018 - 2023
+# - name: International Institute of Information Technology, Hyderabad (IIIT-H)
+#   logo: /assets/images/iiit.png
+#   position: B.Tech. in Computer Science and M.S. (by Research) in Computational Linguistics
+#   date: 2018 - 2023
 
-experience:
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: Research Intern
-  date: Sep. 2019 - Jul. 2021
-  description: >-
-    descWorked on a project related to Natural Language Processing and Machine Learning. 
-    Contributed to the development of a novel algorithm for semantic analysis, 
-    and collaborated with a team to publish a paper in a top-tier conference. 
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: Research Intern
-  date: Sep. 2019 - Jul. 2021
-  description: >-
-    descWorked on a project related to Natural Language Processing and Machine Learning. 
-    Contributed to the development of a novel algorithm for semantic analysis, 
-    and collaborated with a team to publish a paper in a top-tier conference. 
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: Research Intern
-  date: Sep. 2019 - Jul. 2021
-  description: >-
-    descWorked on a project related to Natural Language Processing and Machine Learning. 
-    Contributed to the development of a novel algorithm for semantic analysis, 
-    and collaborated with a team to publish a paper in a top-tier conference. 
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: Research Intern
-  date: Sep. 2019 - Jul. 2021
-  description: >-
-    descWorked on a project related to Natural Language Processing and Machine Learning. 
-    Contributed to the development of a novel algorithm for semantic analysis, 
-    and collaborated with a team to publish a paper in a top-tier conference. 
+# experience:
+# - name: Peking University
+#   logo: /assets/images/badges/PKU_red.png
+#   position: Research Intern
+#   date: Sep. 2019 - Jul. 2021
+#   description: >-
+#     descWorked on a project related to Natural Language Processing and Machine Learning. 
+#     Contributed to the development of a novel algorithm for semantic analysis, 
+#     and collaborated with a team to publish a paper in a top-tier conference. 
+# - name: Peking University
+#   logo: /assets/images/badges/PKU_red.png
+#   position: Research Intern
+#   date: Sep. 2019 - Jul. 2021
+#   description: >-
+#     descWorked on a project related to Natural Language Processing and Machine Learning. 
+#     Contributed to the development of a novel algorithm for semantic analysis, 
+#     and collaborated with a team to publish a paper in a top-tier conference. 
+# - name: Peking University
+#   logo: /assets/images/badges/PKU_red.png
+#   position: Research Intern
+#   date: Sep. 2019 - Jul. 2021
+#   description: >-
+#     descWorked on a project related to Natural Language Processing and Machine Learning. 
+#     Contributed to the development of a novel algorithm for semantic analysis, 
+#     and collaborated with a team to publish a paper in a top-tier conference. 
+# - name: Peking University
+#   logo: /assets/images/badges/PKU_red.png
+#   position: Research Intern
+#   date: Sep. 2019 - Jul. 2021
+#   description: >-
+#     descWorked on a project related to Natural Language Processing and Machine Learning. 
+#     Contributed to the development of a novel algorithm for semantic analysis, 
+#     and collaborated with a team to publish a paper in a top-tier conference. 
 
 
-awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+# awards:
+# - name: Award Name 2
+#   date: 2024
+# - name: Award Name 1 
+#   date: 2021
+# - name: A quick brown fox jumps over the lazy dog and runs away award
+#   date: 2021
