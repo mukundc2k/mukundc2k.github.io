@@ -8,7 +8,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 700;
-    color: #333333;
+    color: #78cc04;
 }
 
 .text-profile-position {
@@ -22,11 +22,11 @@ h1, h2, h3, h4, h5, h6,
 
 .navbar {
     opacity: 0.95;
-    color: #333333;
+    color: #78cc04;
 }
 
 a {
-    color: #333333;
+    color: #78cc04;
 }
 
 .inline-badge {
