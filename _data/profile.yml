@@ -19,9 +19,7 @@ linkedin: mukundc2k
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+  Hello! This is a landing page to know most things linguistics about me. I love linguistics, comics, design and more. Starting out with Linguistics Olympiad in high school, then through a masters in Computational Linguistics and a bunch of super different internships & work experiences, I am now joining a Ph.D. in Natural Language Processing!
 
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
@@ -47,51 +45,30 @@ experience:
     descWorked on a project related to Natural Language Processing and Machine Learning. 
     Contributed to the development of a novel algorithm for semantic analysis, 
     and collaborated with a team to publish a paper in a top-tier conference. 
-  short_description: >-
-    shortdescWorked on a project related to Natural Language Processing and Machine Learning. 
+- name: Peking University
+  logo: /assets/images/badges/PKU_red.png
+  position: Research Intern
+  date: Sep. 2019 - Jul. 2021
+  description: >-
+    descWorked on a project related to Natural Language Processing and Machine Learning. 
     Contributed to the development of a novel algorithm for semantic analysis, 
     and collaborated with a team to publish a paper in a top-tier conference. 
-  content: >-
-    contentWorked on a project related to Natural Language Processing and Machine Learning. 
+- name: Peking University
+  logo: /assets/images/badges/PKU_red.png
+  position: Research Intern
+  date: Sep. 2019 - Jul. 2021
+  description: >-
+    descWorked on a project related to Natural Language Processing and Machine Learning. 
     Contributed to the development of a novel algorithm for semantic analysis, 
     and collaborated with a team to publish a paper in a top-tier conference. 
-  text: >-
-    textWorked on a project related to Natural Language Processing and Machine Learning. 
+- name: Peking University
+  logo: /assets/images/badges/PKU_red.png
+  position: Research Intern
+  date: Sep. 2019 - Jul. 2021
+  description: >-
+    descWorked on a project related to Natural Language Processing and Machine Learning. 
     Contributed to the development of a novel algorithm for semantic analysis, 
     and collaborated with a team to publish a paper in a top-tier conference. 
-  summary: >-
-    summaryWorked on a project related to Natural Language Processing and Machine Learning. 
-    Contributed to the development of a novel algorithm for semantic analysis, 
-    and collaborated with a team to publish a paper in a top-tier conference. 
-  details: >-
-    detailsWorked on a project related to Natural Language Processing and Machine Learning. 
-    Contributed to the development of a novel algorithm for semantic analysis, 
-    and collaborated with a team to publish a paper in a top-tier conference. 
-  body: >-
-    bodyWorked on a project related to Natural Language Processing and Machine Learning. 
-    Contributed to the development of a novel algorithm for semantic analysis, 
-    and collaborated with a team to publish a paper in a top-tier conference. 
-  short_content: >-
-    short_contentWorked on a project related to Natural Language Processing and Machine Learning. 
-    Contributed to the development of a novel algorithm for semantic analysis, 
-    and collaborated with a team to publish a paper in a top-tier conference. 
-  short_text: >-
-    short_textWorked on a project related to Natural Language Processing and Machine Learning. 
-    Contributed to the development of a novel algorithm for semantic analysis, 
-    and collaborated with a team to publish a paper in a top-tier conference. 
-  short_summary: >-
-    short_summaryWorked on a project related to Natural Language Processing and Machine Learning. 
-    Contributed to the development of a novel algorithm for semantic analysis, 
-    and collaborated with a team to publish a paper in a top-tier conference. 
-  short_details: >-
-    short_detailsWorked on a project related to Natural Language Processing and Machine Learning. 
-    Contributed to the development of a novel algorithm for semantic analysis, 
-    and collaborated with a team to publish a paper in a top-tier conference. 
-  short_body: >-
-    short_bodyWorked on a project related to Natural Language Processing and Machine Learning. 
-    Contributed to the development of a novel algorithm for semantic analysis, 
-    and collaborated with a team to publish a paper in a top-tier conference. 
-
 
 
 awards:
