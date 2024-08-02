@@ -68,6 +68,10 @@ img.lazy {
     font-size: 100%;
 }
 
+strong {
+    color: #ffffff;
+}
+
 /* .email-text {
     font-family: Courier, monospace;
 } */
