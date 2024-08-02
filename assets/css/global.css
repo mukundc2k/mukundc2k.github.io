@@ -12,26 +12,31 @@ h1, h2, h3, h4, h5, h6,
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     color: #78CC04;
+    background-color: #E8FACF;
 }
 
 .text-profile-position {
     font-weight: 400;
+    background-color: #E8FACF;
 }
 
 .text-profile-bio {
     /* font-family: "Raleway"; */
     font-weight: 400;
+    background-color: #E8FACF;
 }
 
 .navbar {
     font-family: 'Arial Narrow', Arial, sans-serif;
     opacity: 0.95;
     color: #78CC04;
+    background-color: #E8FACF;
 }
 
 a {
     font-family: 'Arial Narrow', Arial, sans-serif;
     color: #78CC04;
+    background-color: #E8FACF;
 }
 
 .inline-badge {
@@ -39,19 +44,23 @@ a {
     vertical-align: -10%;
     margin-right: 2px;
     line-break: unset;
+    background-color: #E8FACF;
 }
 
 .no-break {
     white-space: nowrap;
+    background-color: #E8FACF;
 }
 
 .cover-image {
     width: 180px;
     max-height: 120px;
+    background-color: #E8FACF;
 }
 
 .abstract-body {
     min-height: 100px;
+    background-color: #E8FACF;
 }
 
 img.lazy {
@@ -60,10 +69,12 @@ img.lazy {
     background-position: 50% 50%;
     background-size: 50px 50px;
     min-height: 80px;
+    background-color: #E8FACF;
 }
 
 .badge-publication {
     font-size: 100%;
+    background-color: #E8FACF;
 }
 
 /* .email-text {
