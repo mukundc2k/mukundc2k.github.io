@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "mukund choudhary"
 
 positions:
-- name: PhD in NLP @ TBA
+- name: PhD student in NLP @ MBZUAI
 # - logo: /assets/images/badges/PKU_red.png
   # name: B.S., Peking University (2021)
 
@@ -19,11 +19,10 @@ linkedin: mukundc2k
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  Hello! This is a landing page to know most things linguistic about me. Starting out with Panini Linguistics Olympiad in high school, then through a masters in Computational Linguistics and a bunch of super different internships & work experiences, I am now joining a Ph.D. in Natural Language Processing!  <br><br>
-  I like to research around problems that need tailor-made & text patterns/analysis driven solutions in domains like low resourced languages, bias-against demographics etc. in the age of trendy NLP & LLMs.  <br><br>
-  Finally as much as I like to dabble in anything rooted in linguistics, I also like the more human-focused aspects of the field, thus bringing in cognitive sciences like psychology, behavioral experiments in methodology etc.    <br><br><br>
-    
-  Hit me up on my twitter, linkedin, or e-mail if you feel interested in anything around these domains or even if you want some recommendations on quick graphic novels to read over a coffee :)
+  Welcome to a window into what I'm about and which latest swing I am currently trying out in the playground of linguistics and tech. The Panini Linguistics Olympiad got me hooked on puzzles in language in school, and since then, I have been bouncing around, chasing that next puzzle. I am now preparing to slide down into historical linguistics, low-resource languages, cognitive science, and more as a PhD student in NLP at MBZUAI. <br><br>
+  Over at IIIT Hyderabad, I monkey-barred over more <computer science, cognitive science> + linguistics. It was a fun sandbox for me to remix research in computational linguistics, Twitter code-mixed morphology, password psycholinguistics, dissect pseudowords, explain misinformation, loop back low-resource Indian languages into NLP trends, construct datasets, guide annotations, ideate new ontologies, design behavioral experiments for Aphasia, swiping through food menus for ordering the next new thing, etc. <br><br>
+  While I worked these out on collaborations and built up my master's thesis, the industry NLP merry-go-round showed me the other side. I sifted through customer issues to generate insights at intelo.ai and coded up data cleaners & Tamil phonology for dialects at Navana, both startups. I have had my hands in the sandy, ever-changing landscape of Generative AI from 2022-24 in the form of consulting in Legal NLP at Lexapar (JSW), interning at Amazon for better fairness & de-biasing through adversarial prompting & artificial data generation, and as a data scientist at Jio Platforms (Reliance) building agent assistant chatbots with automated actions, customizable databases on top of Llama which included being backstage on the UX, Architecture, full-stack haberdashery, etc. <br><br><br>    
+  So, if you're into language, tech, comics, design, quizzing, or just curious about what I’m up to, look around or hit me up! I keep it real, and it's always interesting :)
   
 portrait_url: /assets/images/mukund.jpeg
 
