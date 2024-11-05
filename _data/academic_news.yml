@@ -1,0 +1,18 @@
+news:
+  - date: "2024-10-23"
+    title: "Attended Innovation Xchange"
+    description: "Participated as an AI panelist at the Innovation Xchange hosted by the Government of India and ITU-WTSA'24."
+    links:
+      - title: "Event Details"
+        url: "https://www.itu.int/en/ITU-T/Workshops-and-Seminars/2024/1023/Pages/default.aspx"
+
+  - date: "2024-08-12"
+    title: "New Preprint Released"
+    description: "Published a preprint on pseudoword generation and evaluation."
+    links:
+      - title: "Read the Preprint"
+        url: "https://arxiv.org/abs/..."
+
+  - date: "2024-07-05"
+    title: "Started Collaboration with XYZ Lab"
+    description: "Initiated a collaboration with XYZ Lab to work on multilingual NLP models."
