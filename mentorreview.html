@@ -5,48 +5,23 @@ navbar_title: OtherAcademia
 ---
 <div class="row">
     <div class="col-12">
-        <h2>Mentoring & Reviewing</h2>
-        
-        <!-- Check if data is loaded -->
-        {% if site.data.mentoring_reviewing %}
-            <p>Data file loaded successfully.</p>
-            {% for item in site.data.mentoring_reviewing %}
+        {% if site.data.mentoring_and_reviewing.entries %}
+            {% for entry in site.data.mentoring_and_reviewing.entries %}
             <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
                 <div class="p-3">
-                    <h4>{{ item.category }}</h4>
-                    {% if item.date %}<p class="text-muted">{{ item.date }}</p>{% endif %}
-                    {% if item.description %}<p>{{ item.description }}</p>{% endif %}
-                    
-                    {% if item.links %}
+                    <h4>{{ entry.category }}</h4>
+                    <p class="text-muted">{{ entry.date }}</p>
+                    <p>{{ entry.description }}</p>
+                    {% if entry.links %}
                         <ul>
-                            {% for link in item.links %}
+                            {% for link in entry.links %}
                                 <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
-                            {% endfor %}
-                        </ul>
-                    {% endif %}
-                    
-                    {% if item.advisors %}
-                        <p><strong>Advisors:</strong></p>
-                        <ul>
-                            {% for advisor in item.advisors %}
-                                <li><a href="{{ advisor.url }}" target="_blank">{{ advisor.name }}</a></li>
-                            {% endfor %}
-                        </ul>
-                    {% endif %}
-                    
-                    {% if item.instructors %}
-                        <p><strong>Instructors:</strong></p>
-                        <ul>
-                            {% for instructor in item.instructors %}
-                                <li><a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
                             {% endfor %}
                         </ul>
                     {% endif %}
                 </div>
             </div>
             {% endfor %}
-        {% else %}
-            <p>Data file not loaded. Please check file location and structure.</p>
         {% endif %}
     </div>
 </div>
