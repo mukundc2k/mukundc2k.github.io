@@ -13,6 +13,13 @@ navbar_title: Experience
                     <h5>{{ exp.company }}</h5>
                     {% if exp.date %}<p class="text-muted">{{ exp.date }}</p>{% endif %}
                     {% if exp.description %}<p>{{ exp.description }}</p>{% endif %}
+                    {% if exp.highlights %}
+                        <ul>
+                            {% for highlight in exp.highlights %}
+                                <li>{{ highlight }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
