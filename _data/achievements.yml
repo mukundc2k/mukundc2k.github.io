@@ -1,0 +1,10 @@
+- type: "Awards"
+  title: "Best Paper Award"
+  date: 2023-12-01
+  description: "Received at ICCV 2023"
+  link: "https://example.com/award"
+
+- type: "Grants"
+  title: "Research Grant"
+  date: 2023-06-01
+  description: "Received $50,000 research grant"
