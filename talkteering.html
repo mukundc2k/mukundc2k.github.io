@@ -4,45 +4,32 @@ title: Talks & Volunteering
 navbar_title: Talks+Volunteering
 ---
 <div class="row">
-    <div class="col-12 col-lg-10">
-        <h2 class="pt-4">Talks</h2>
-        {% assign talks = site.data.talks | sort: 'date' | reverse %}
-        {% for talk in talks %}
-        <div class="card mb-3">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-3">
-                        <p class="text-muted mb-1">{{ talk.date | date: "%b %d, %Y" }}</p>
-                    </div>
-                    <div class="col-md-9">
-                        <h5>{{ talk.title }}</h5>
-                        <p>{{ talk.venue }}</p>
-                        {% if talk.slides_url %}
-                        <a href="{{ talk.slides_url }}" class="btn btn-sm btn-outline-primary">View Slides</a>
-                        {% endif %}
-                    </div>
+    <div class="col-12">
+        <h2>Talks</h2>
+        {% if site.data.talks %}
+            {% for talk in site.data.talks %}
+            <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+                <div class="p-3">
+                    <h4>{{ talk.title }}</h4>
+                    <h5>{{ talk.venue }}</h5>
+                    {% if talk.date %}<p class="text-muted">{{ talk.date }}</p>{% endif %}
                 </div>
             </div>
-        </div>
-        {% endfor %}
+            {% endfor %}
+        {% endif %}
 
-        <h2 class="pt-4">Volunteering</h2>
-        {% assign volunteer = site.data.volunteering | sort: 'date' | reverse %}
-        {% for vol in volunteer %}
-        <div class="card mb-3">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-3">
-                        <p class="text-muted mb-1">{{ vol.date | date: "%b %Y" }}</p>
-                    </div>
-                    <div class="col-md-9">
-                        <h5>{{ vol.organization }}</h5>
-                        <p>{{ vol.role }}</p>
-                        <p>{{ vol.description }}</p>
-                    </div>
+        <h2 class="mt-4">Volunteering</h2>
+        {% if site.data.volunteering %}
+            {% for vol in site.data.volunteering %}
+            <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+                <div class="p-3">
+                    <h4>{{ vol.organization }}</h4>
+                    <h5>{{ vol.role }}</h5>
+                    {% if vol.date %}<p class="text-muted">{{ vol.date }}</p>{% endif %}
+                    {% if vol.description %}<p>{{ vol.description }}</p>{% endif %}
                 </div>
             </div>
-        </div>
-        {% endfor %}
+            {% endfor %}
+        {% endif %}
     </div>
 </div>
