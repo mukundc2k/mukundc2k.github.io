@@ -1,8 +1,7 @@
 talks_and_volunteering:
   - role: "Speaker"
-    event: "AI Panelist"
-    organization: "Innovation Xchange, Govt. of India & ITU-WTSA '24"
-    description: "Participated as a speaker in a panel discussion on AI, addressing key trends and challenges."
+    organization: "Blitz Presentation @ ACCS'23 + Poster @ SAFAL'24 | AI Panelist at Innovation Xchange, Govt. of India & ITU-WTSA '24"
+    description: "Presented my masters thesis work at the above conferences. | Participated as a speaker in a panel discussion on AI, addressing key trends and challenges."
     links:
       - title: "Innovation Xchange"
         url: "https://www.itu.int/en/ITU-T/Workshops-and-Seminars/2024/1023/Pages/default.aspx"
@@ -14,7 +13,7 @@ talks_and_volunteering:
         url: "https://sites.google.com/view/safal-2024"
 
   - role: "Podcast Guest"
-    description: "Discussed pop linguistics, NLP, and trends on various podcasts."
+    description: "Discussed pop linguistics, NLP, and trends with friends on various podcasts:"
     links:
       - title: "The Psy Principle (Hritik)"
         url: "https://open.spotify.com/episode/51rYZXjcT8VzyyjxncYo6J?si=x69a6FAgR-SmLP_uUjyTWw"
@@ -28,7 +27,7 @@ talks_and_volunteering:
     highlights:
       - "National Coordinator & Problem Committee Member for Panini Linguistics Olympiad"
       - "Mental Health Support Group volunteer"
-      - "College quiz & problem-solving clubs volunteer"
+      - "College quiz (IIIT) & problem-solving (MBZUAI) clubs in leading positions."
     links:
       - title: "Panini Linguistics Olympiad"
         url: "https://ltrc.iiit.ac.in/nlpmt/plo/"
