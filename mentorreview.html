@@ -6,7 +6,10 @@ navbar_title: OtherAcademia
 <div class="row">
     <div class="col-12">
         <h2>Mentoring & Reviewing</h2>
+        
+        <!-- Check if data is loaded -->
         {% if site.data.mentoring_reviewing %}
+            <p>Data file loaded successfully.</p>
             {% for item in site.data.mentoring_reviewing %}
             <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
                 <div class="p-3">
@@ -42,6 +45,8 @@ navbar_title: OtherAcademia
                 </div>
             </div>
             {% endfor %}
+        {% else %}
+            <p>Data file not loaded. Please check file location and structure.</p>
         {% endif %}
     </div>
 </div>
