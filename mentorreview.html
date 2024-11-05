@@ -1,36 +1,33 @@
 ---
 layout: default
-title: Mentoring & Reviews
-navbar_title: Other Academia
+title: Other Academia
+navbar_title: OtherAcademia
 ---
 <div class="row">
-    <div class="col-12 col-lg-10">
-        <h2 class="pt-4">Mentoring</h2>
-        {% for item in site.data.mentoring %}
-        <div class="card mb-3">
-            <div class="card-body">
-                <h5>{{ item.role }}</h5>
-                <p>{{ item.description }}</p>
-                {% if item.mentees %}
-                <ul>
-                    {% for mentee in item.mentees %}
-                    <li>{{ mentee }}</li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
+    <div class="col-12">
+        <h2>Mentoring</h2>
+        {% if site.data.mentoring %}
+            {% for item in site.data.mentoring %}
+            <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+                <div class="p-3">
+                    <h4>{{ item.role }}</h4>
+                    {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+                </div>
             </div>
-        </div>
-        {% endfor %}
+            {% endfor %}
+        {% endif %}
 
-        <h2 class="pt-4">Reviews</h2>
-        {% for item in site.data.reviews %}
-        <div class="card mb-3">
-            <div class="card-body">
-                <h5>{{ item.conference }}</h5>
-                <p class="text-muted">{{ item.year }}</p>
-                <p>{{ item.role }}</p>
+        <h2 class="mt-4">Reviews</h2>
+        {% if site.data.reviews %}
+            {% for item in site.data.reviews %}
+            <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+                <div class="p-3">
+                    <h4>{{ item.conference }}</h4>
+                    {% if item.year %}<p class="text-muted">{{ item.year }}</p>{% endif %}
+                    {% if item.role %}<p>{{ item.role }}</p>{% endif %}
+                </div>
             </div>
-        </div>
-        {% endfor %}
+            {% endfor %}
+        {% endif %}
     </div>
 </div>
