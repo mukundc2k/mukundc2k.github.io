@@ -2,11 +2,11 @@
   company: "Jio Platforms Ltd. (Reliance)"
   start_date: 2023-08-01
   end_date: 2024-05-31
-  description: "Developed an agent-driven, full-stack chatbot with Large Language Models, supporting Jio's dynamic knowledge base and integrating action automation within UX and infrastructure constraints."
+  description: "Developed an agent-assisting, full-stack chatbot with an open-source Large Language Model, supporting Jio's dynamic knowledge base and integrating action automation within UX and infrastructure constraints."
   highlights:
-    - "Built chatbot leveraging open-source LLMs and Llama 2 for optimized performance"
-    - "Implemented automated actions and suggestions aligned with Jio UX requirements"
-    - "Ensured integration within Jio's technical infrastructure"
+    - "Built chatbot leveraging open-source LLMs and Llama 2 for optimized performance and flexibility in the B2B use cases the company had."
+    - "Implemented automated actions and suggestions aligned with Jio UX requirements."
+    - "Ensured integration of cross-team requirements and hand-made guardrailing through various prompting strategies."
 
 - position: "Research Consultant"
   company: "Lexapar / JSW"
@@ -14,18 +14,17 @@
   end_date: 2023-08-31
   description: "Focused on developing and enhancing Knowledge Graphs, Legal NLP, Named Entity Recognition (NER), and relationship extraction."
   highlights:
-    - "Advanced knowledge graph development for legal data"
-    - "Enhanced NER and relationship extraction methods for legal applications"
+    - "Consulted on custom knowledge graph development for legal data."
+    - "Worked with the team to build NER and relationship extraction methods for legal applications."
 
 - position: "Applied Science Intern"
   company: "Amazon, Alexa"
-  start_date: 2024-01-01
-  end_date: 2024-06-30
+  start_date: 2023-01-01
+  end_date: 2023-06-30
   description: "Conducted research on explainable AI and multilingual data generation for fairness in language processing."
   highlights:
-    - "Developed data augmentation strategies to reduce bias and enhance fairness"
-    - "Generated explanations for underperforming AI models using methods ranging from TF-IDF to advanced LLMs"
-    - "Created annotated datasets to address accuracy issues in Alexa concept clusters"
+    - "Developed synthetic data augmentation (by generation) strategies to reduce bias and enhance fairness in Alexa concept clusters."
+    - "Generated explanations for underperforming clusters using methods ranging from TF-IDF to contrastive prompting."
 
 - position: "Applied Science Intern"
   company: "Amazon, Alexa"
@@ -33,8 +32,8 @@
   end_date: 2022-07-31
   description: "Focused on data generation and augmentation for voice assistants, improving bias and fairness."
   highlights:
-    - "Designed data augmentation for improved fairness across multiple languages"
-    - "Conducted experiments to understand AI behavior with explainable methods"
+    - "Designed data augmentation for improved fairness across multiple languages."
+    - "Conducted experiments to understand AI behaviour with explainable methods."
 
 - position: "Intern Computational Linguist"
   company: "Navana Tech"
@@ -42,9 +41,9 @@
   end_date: 2022-04-30
   description: "Researched and implemented computational linguistics solutions, focusing on automated annotation and Indian phonology."
   highlights:
-    - "Automated annotation pipelines, accelerating language processing"
-    - "Collaborated with speech and language consultants to capture dialectal variations across Indian languages"
-    - "Researched phonological rules to address pattern-based errors in language data"
+    - "Scripted solutions to automate/speed up CL pipelines, Annotations etc."
+    - "Worked with speech team and training language consultants to capture dialectal variation \& phonological richness in 9+ Indian languages."
+    - "Researched data to use, finding rules covering pattern-based errors, etc. and trained annotators on different tasks."
 
 - position: "Intern Data Science & Linguistics"
   company: "intelo.ai"
@@ -52,5 +51,5 @@
   end_date: 2022-01-31
   description: "Developed NLP solutions for B2B CRM SaaS, specializing in keyword extraction, summarization, and sentence similarity."
   highlights:
-    - "Built tools for keyword extraction and summarization in CRM systems"
-    - "Implemented sentence similarity models to enhance CRM functionalities"
+    - "Built tools for keyword extraction and summarization in CRM systems."
+    - "Implemented sentence similarity models to enhance CRM red flag finding."
