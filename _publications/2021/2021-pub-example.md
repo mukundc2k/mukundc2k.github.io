@@ -15,7 +15,7 @@ authors:
   - James Wang
   - Your Name#
 links:
-  Paper: [https://escholarship.org/uc/item/7v1654s9#main](https://escholarship.org/uc/item/7v1654s9#main)
-  Code: [https://bit.ly/isconvenientsecure](https://bit.ly/isconvenientsecure)
+  Paper: https://escholarship.org/uc/item/7v1654s9#main
+  Code: https://bit.ly/isconvenientsecure
   Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
 ---
