@@ -1,17 +1,18 @@
 ---
-title:          "Lorem ipsum: Dolor sit amet, consectetur adipiscing elit"
-date:           2023-01-05 00:01:00 +0800
+title:          "CoPara: The First Dravidian Paragraph-level n-way Aligned Corpus"
+date:           2023-09-07 00:01:00 +0800
 selected:       true
-pub:            "Nature Communications"
+pub:            "RANLP: DravidianLangTech"
 pub_date:       "2023"
 abstract: >-
-  Photo by Thomas Renaud on Unsplash. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-cover:          /assets/images/covers/cover1.jpg
+  We present CoPara, the first publicly available paragraph-level (n-way aligned) multilingual parallel corpora for Dravidian languages. The collection contains 2856 paragraph/passage pairs between English and four Dravidian languages. We source the parallel paragraphs from the New India Samachar magazine and align them with English as a pivot language. We do human and artificial evaluations to validate the high-quality alignment and richness of the parallel paragraphs of a range of lengths. To show one of the many ways this dataset can be wielded, we finetuned IndicBART, a seq2seq NMT model on all XX-En pairs of languages in CoPara which perform better than existing sentence-level models on standard benchmarks (like BLEU) on sentence level translations and longer text too. We show how this dataset can enrich a model trained for a task like this, with more contextual cues and beyond sentence understanding even in low-resource settings like that of Dravidian languages. Finally, the dataset and models are made available publicly at CoPara to help advance research in Dravidian NLP, parallel multilingual, and beyond sentence-level tasks like NMT, etc.
+
+cover:          /assets/images/covers/figure3.png
 authors:
-- Your Name*
-- Robert White*
-- John Doe
-- Charles Green (Stanford)
+  - E Nikhil#
+  - Mukund Choudhary
+  - Radhika Mamidi
 links:
-  Paper: https://www.cell.com
+  Paper: https://aclanthology.org/2023.dravidianlangtech-1.12.pdf
+  GitHub: https://github.com/ENikhil/CoPara
 ---
