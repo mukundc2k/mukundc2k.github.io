@@ -5,26 +5,27 @@ navbar_title: OtherAcademia
 ---
 <div class="row">
     <div class="col-12">
-        <h2>Mentoring</h2>
-        {% if site.data.mentoring %}
-            {% for item in site.data.mentoring %}
+        {% if site.data.other_academia.talks_and_volunteering %}
+            {% for item in site.data.other_academia.talks_and_volunteering %}
             <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
                 <div class="p-3">
                     <h4>{{ item.role }}</h4>
+                    {% if item.organization %}<h5>{{ item.organization }}</h5>{% endif %}
                     {% if item.description %}<p>{{ item.description }}</p>{% endif %}
-                </div>
-            </div>
-            {% endfor %}
-        {% endif %}
-
-        <h2 class="mt-4">Reviews</h2>
-        {% if site.data.reviews %}
-            {% for item in site.data.reviews %}
-            <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
-                <div class="p-3">
-                    <h4>{{ item.conference }}</h4>
-                    {% if item.year %}<p class="text-muted">{{ item.year }}</p>{% endif %}
-                    {% if item.role %}<p>{{ item.role }}</p>{% endif %}
+                    {% if item.highlights %}
+                        <ul>
+                            {% for highlight in item.highlights %}
+                                <li>{{ highlight }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                    {% if item.links %}
+                        <ul>
+                            {% for link in item.links %}
+                                <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
