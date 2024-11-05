@@ -1,19 +1,19 @@
 pages:
 - name: Home
   url: /
-- name: Education
-  url: /education
 - name: Publications
   url: /papers
-- name: Experience
-  url: /experience
 - name: News
   url: /news
-- name: OtherAcademia
+- name: Experience
+  url: /experience
+- name: Extrademia
   url: /mentorreview
-- name: Talks+Volunteering
+- name: Talkteering
   url: /talkteering
+- name: Education
+  url: /education
 - name: Achievements
   url: /achievements
-- name: ThePopMe!
+- name: Me!
   url: /hobbies
