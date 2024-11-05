@@ -1,0 +1,52 @@
+---
+layout: default
+title: The Pop Me!
+navbar_title: ThePopMe!
+---
+<div class="row">
+    <div class="col-12 col-lg-10">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2>About Me</h2>
+                <p>{{ site.data.hobbies.about }}</p>
+            </div>
+        </div>
+
+        {% if site.data.hobbies.interests %}
+        <h2 class="pt-4">Interests</h2>
+        <div class="row">
+            {% for interest in site.data.hobbies.interests %}
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    {% if interest.image %}
+                    <img src="{{ interest.image }}" class="card-img-top" alt="{{ interest.title }}">
+                    {% endif %}
+                    <div class="card-body">
+                        <h5 class="card-title">{{ interest.title }}</h5>
+                        <p class="card-text">{{ interest.description }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if site.data.hobbies.gallery %}
+        <h2 class="pt-4">Gallery</h2>
+        <div class="row">
+            {% for image in site.data.hobbies.gallery %}
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="{{ image.url }}" class="card-img-top" alt="{{ image.caption }}">
+                    {% if image.caption %}
+                    <div class="card-body">
+                        <p class="card-text">{{ image.caption }}</p>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</div>
