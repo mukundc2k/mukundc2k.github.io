@@ -1,0 +1,36 @@
+---
+layout: default
+title: Mentoring & Reviews
+navbar_title: Other Academia
+---
+<div class="row">
+    <div class="col-12 col-lg-10">
+        <h2 class="pt-4">Mentoring</h2>
+        {% for item in site.data.mentoring %}
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5>{{ item.role }}</h5>
+                <p>{{ item.description }}</p>
+                {% if item.mentees %}
+                <ul>
+                    {% for mentee in item.mentees %}
+                    <li>{{ mentee }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+
+        <h2 class="pt-4">Reviews</h2>
+        {% for item in site.data.reviews %}
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5>{{ item.conference }}</h5>
+                <p class="text-muted">{{ item.year }}</p>
+                <p>{{ item.role }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
