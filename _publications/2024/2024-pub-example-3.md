@@ -1,22 +1,20 @@
 ---
-title:          "Convallis a cras semper auctor neque vitae rutrum quisque non tellus orci ac"
-date:           2024-05-12 00:01:00 +0800
+title:          "Llama-3-Nanda-10B-Chat: An Open Generative LLM for Hindi"
+date:           2024-10-30 00:01:00 +0800
 selected:       true
-pub:            "International Conference on Machine Learning (ICML)"
-# pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+pub:            "TBA"
 pub_date:       "2024"
 
 abstract: >-
-  Photo by Pineapple Supply Co. on Unsplash. Massa ultricies mi quis hendrerit dolor magna. Arcu non odio euismod lacinia at quis risus sed. Et tortor at risus viverra. Enim neque volutpat ac tincidunt. Dictum varius duis at consectetur lorem donec.
-cover:          /assets/images/covers/cover3.jpg
+  We introduce Llama-3-Nanda-10B-Chat, or Nanda for short, a new state-of-the-art Hindi-centric instruction tuned open generative large language model (LLM). Nanda is adapted from the LLaMA-3-8B model via continuous pretraining with expansion of transformer blocks, following LLaMA Pro approach. This model employs the decoder-only architecture and has been trained on a mixture of Hindi and English texts. With 10 billion parameters, Nanda demonstrates improved knowledge and reasoning capabilities in Hindi, suprassing existing open Hindi and multilingual models of comparable size by a substantial margin; it also achieves highly competitive performance in English. We release Nanda as an open-sourced instruction-tuned model and provide a detailed overview of its training, tuning, safety alignment, and evaluation processes. We believe that this release will foster further research in Hindi LLMs and support diverse practical applications across various domains.
+cover:          /assets/images/covers/figure5.png
 authors:
-  - Your Name
-  - James Wang
-  - Some Other Name
-  - John Doe
+  - Monojit Choudhury
+  - ...
+  - Mukund Choudhary
+  - ...
+  - Preslav Nakov
 links:
-  Code: https://github.com/luost26/academic-homepage
-  Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  Paper: https://github.com/mbzuai-nlp/Llama-3-Nanda-10B-Chat/blob/main/Llama-3-Nanda-10B-Chat-Paper.pdf
+  HuggingFace: https://huggingface.co/MBZUAI/Llama-3-Nanda-10B-Chat
 ---
