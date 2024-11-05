@@ -1,0 +1,14 @@
+- position: "Research Scientist"
+  company: "Tech Company"
+  start_date: 2023-06-01
+  end_date: 
+  description: "Leading AI research projects"
+  highlights:
+    - "Developed novel deep learning architecture"
+    - "Published 2 patents"
+
+- position: "Research Assistant"
+  company: "University Lab"
+  start_date: 2020-09-01
+  end_date: 2023-05-31
+  description: "Conducted research in computer vision"
