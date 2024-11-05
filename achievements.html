@@ -5,28 +5,36 @@ navbar_title: Achievements
 ---
 <div class="row">
     <div class="col-12 col-lg-10">
-        {% assign achievements_by_type = site.data.achievements | group_by: 'type' %}
-        {% for type in achievements_by_type %}
-        <h2 class="pt-4">{{ type.name }}</h2>
-        {% assign items = type.items | sort: 'date' | reverse %}
-        {% for item in items %}
-        <div class="card mb-3">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-3">
-                        <p class="text-muted mb-1">{{ item.date | date: "%b %Y" }}</p>
-                    </div>
-                    <div class="col-md-9">
-                        <h5>{{ item.title }}</h5>
-                        <p>{{ item.description }}</p>
-                        {% if item.link %}
-                        <a href="{{ item.link }}" class="btn btn-sm btn-outline-primary">Learn More</a>
-                        {% endif %}
+        {% if site.data.achievements %}
+            {% assign achievements_by_type = site.data.achievements | group_by: 'type' %}
+            {% for type in achievements_by_type %}
+            <h2 class="pt-4">{{ type.name }}</h2>
+            {% assign items = type.items | sort: 'date' | reverse %}
+            {% for item in items %}
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p class="text-muted mb-1">
+                                {% if item.date %}{{ item.date | date: "%b %Y" }}{% endif %}
+                            </p>
+                        </div>
+                        <div class="col-md-9">
+                            <h5>{{ item.title }}</h5>
+                            {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+                            {% if item.link %}
+                            <a href="{{ item.link }}" class="btn btn-sm btn-outline-primary">Learn More</a>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        {% endfor %}
-        {% endfor %}
+            {% endfor %}
+            {% endfor %}
+        {% else %}
+            <div class="alert alert-info">
+                No achievements data available yet.
+            </div>
+        {% endif %}
     </div>
 </div>
