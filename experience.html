@@ -11,7 +11,11 @@ navbar_title: Experience
                 <div class="p-3">
                     <h4>{{ exp.position }}</h4>
                     <h5>{{ exp.company }}</h5>
-                    {% if exp.date %}<p class="text-muted">{{ exp.date }}</p>{% endif %}
+                    {% if exp.start_date and exp.end_date %}
+                        <p class="text-muted">{{ exp.start_date | date: "%b %Y" }} - {{ exp.end_date | date: "%b %Y" }}</p>
+                    {% elsif exp.start_date %}
+                        <p class="text-muted">{{ exp.start_date | date: "%b %Y" }} - Present</p>
+                    {% endif %}
                     {% if exp.description %}<p>{{ exp.description }}</p>{% endif %}
                     {% if exp.highlights %}
                         <ul>
