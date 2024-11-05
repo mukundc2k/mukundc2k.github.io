@@ -15,5 +15,5 @@ pages:
   url: /education
 - name: Achievements
   url: /achievements
-- name: Me!
-  url: /hobbies
+- name: currently-info
+  url: /currently-info
