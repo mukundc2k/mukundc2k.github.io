@@ -1,0 +1,33 @@
+---
+layout: default
+title: Education
+navbar_title: Education
+---
+<div class="row">
+    <div class="col-12 col-lg-10">
+        {% assign education = site.data.education | sort: 'end_date' | reverse %}
+        {% for item in education %}
+        <div class="card mb-4">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <p class="text-muted mb-1">{{ item.start_date | date: "%Y" }} - {{ item.end_date | date: "%Y" }}</p>
+                    </div>
+                    <div class="col-md-9">
+                        <h4>{{ item.degree }}</h4>
+                        <h5>{{ item.institution }}</h5>
+                        <p>{{ item.description }}</p>
+                        {% if item.achievements %}
+                        <ul>
+                            {% for achievement in item.achievements %}
+                            <li>{{ achievement }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
