@@ -1,5 +1,5 @@
 ---
-title:          "CoPara: The First Dravidian Paragraph-level n-way Aligned Corpus"
+title:          "CoPara 🥥: The First Dravidian Paragraph-level n-way Aligned Corpus"
 date:           2023-09-07 00:01:00 +0800
 selected:       true
 pub:            "RANLP: DravidianLangTech"
