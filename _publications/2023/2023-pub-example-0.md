@@ -11,7 +11,7 @@ cover:          /assets/images/covers/figure4.png
 authors:
   - Tathagata Raha#
   - Mukund Choudhary
-  - Abhinav Menon
+  - Abhinav S Menon
   - Harshit Gupta
   - KV Aditya Srivatsa
   - Manish Gupta
