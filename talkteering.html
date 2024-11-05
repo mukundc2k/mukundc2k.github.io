@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: Talks & Volunteering
 navbar_title: Talks+Volunteering
@@ -19,6 +19,42 @@ navbar_title: Talks+Volunteering
                             {% endfor %}
                         </ul>
                     {% endif %}
+                    {% if item.links %}
+                        <ul>
+                            {% for link in item.links %}
+                                <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+</div>
+ -->
+
+ ---
+layout: default
+title: Talks & Volunteering
+navbar_title: Talks+Volunteering
+---
+<div class="row">
+    <div class="col-12">
+        {% if site.data.talks_and_volunteering %}
+            {% for item in site.data.talks_and_volunteering %}
+            <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+                <div class="p-3">
+                    <h4>{{ item.role }}</h4>
+                    {% if item.organization %}<h5>{{ item.organization }}</h5>{% endif %}
+                    {% if item.highlights %}
+                        <ul>
+                            {% for highlight in item.highlights %}
+                                <li>{{ highlight }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                    {% if item.description %}<p>{{ item.description }}</p>{% endif %}
                     {% if item.links %}
                         <ul>
                             {% for link in item.links %}
