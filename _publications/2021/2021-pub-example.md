@@ -11,7 +11,7 @@ cover:          /assets/images/covers/figure1.png
 authors:
   - Mukund Choudhary#
   - KV Aditya Srivatsa
-  - Ishan Upadhyay
+  - Ishan Sanjeev Upadhyay
   - Priyanka Srivastava
 links:
   Paper: https://escholarship.org/uc/item/7v1654s9#main
