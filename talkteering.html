@@ -1,0 +1,48 @@
+---
+layout: default
+title: Talks & Volunteering
+navbar_title: Talks+Volunteering
+---
+<div class="row">
+    <div class="col-12 col-lg-10">
+        <h2 class="pt-4">Talks</h2>
+        {% assign talks = site.data.talks | sort: 'date' | reverse %}
+        {% for talk in talks %}
+        <div class="card mb-3">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <p class="text-muted mb-1">{{ talk.date | date: "%b %d, %Y" }}</p>
+                    </div>
+                    <div class="col-md-9">
+                        <h5>{{ talk.title }}</h5>
+                        <p>{{ talk.venue }}</p>
+                        {% if talk.slides_url %}
+                        <a href="{{ talk.slides_url }}" class="btn btn-sm btn-outline-primary">View Slides</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+        <h2 class="pt-4">Volunteering</h2>
+        {% assign volunteer = site.data.volunteering | sort: 'date' | reverse %}
+        {% for vol in volunteer %}
+        <div class="card mb-3">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <p class="text-muted mb-1">{{ vol.date | date: "%b %Y" }}</p>
+                    </div>
+                    <div class="col-md-9">
+                        <h5>{{ vol.organization }}</h5>
+                        <p>{{ vol.role }}</p>
+                        <p>{{ vol.description }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
