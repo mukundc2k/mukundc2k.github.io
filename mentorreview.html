@@ -5,28 +5,40 @@ navbar_title: OtherAcademia
 ---
 <div class="row">
     <div class="col-12">
-        <h2>Talks</h2>
-        {% if site.data.talks %}
-            {% for talk in site.data.talks %}
+        <h2>Mentoring & Reviewing</h2>
+        {% if site.data.mentoring_reviewing %}
+            {% for item in site.data.mentoring_reviewing %}
             <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
                 <div class="p-3">
-                    <h4>{{ talk.title }}</h4>
-                    <h5>{{ talk.venue }}</h5>
-                    {% if talk.date %}<p class="text-muted">{{ talk.date }}</p>{% endif %}
-                </div>
-            </div>
-            {% endfor %}
-        {% endif %}
-
-        <h2 class="mt-4">Volunteering</h2>
-        {% if site.data.volunteering %}
-            {% for vol in site.data.volunteering %}
-            <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
-                <div class="p-3">
-                    <h4>{{ vol.organization }}</h4>
-                    <h5>{{ vol.role }}</h5>
-                    {% if vol.date %}<p class="text-muted">{{ vol.date }}</p>{% endif %}
-                    {% if vol.description %}<p>{{ vol.description }}</p>{% endif %}
+                    <h4>{{ item.category }}</h4>
+                    {% if item.date %}<p class="text-muted">{{ item.date }}</p>{% endif %}
+                    {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+                    
+                    {% if item.links %}
+                        <ul>
+                            {% for link in item.links %}
+                                <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                    
+                    {% if item.advisors %}
+                        <p><strong>Advisors:</strong></p>
+                        <ul>
+                            {% for advisor in item.advisors %}
+                                <li><a href="{{ advisor.url }}" target="_blank">{{ advisor.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                    
+                    {% if item.instructors %}
+                        <p><strong>Instructors:</strong></p>
+                        <ul>
+                            {% for instructor in item.instructors %}
+                                <li><a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
