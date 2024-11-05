@@ -1,14 +1,56 @@
-- position: "Research Scientist"
-  company: "Tech Company"
-  start_date: 2023-06-01
-  end_date: 
-  description: "Leading AI research projects"
+- position: "Data Scientist"
+  company: "Jio Platforms Ltd. (Reliance)"
+  start_date: 2023-08-01
+  end_date: 2024-05-31
+  description: "Developed an agent-driven, full-stack chatbot with Large Language Models, supporting Jio's dynamic knowledge base and integrating action automation within UX and infrastructure constraints."
   highlights:
-    - "Developed novel deep learning architecture"
-    - "Published 2 patents"
+    - "Built chatbot leveraging open-source LLMs and Llama 2 for optimized performance"
+    - "Implemented automated actions and suggestions aligned with Jio UX requirements"
+    - "Ensured integration within Jio's technical infrastructure"
 
-- position: "Research Assistant"
-  company: "University Lab"
-  start_date: 2020-09-01
-  end_date: 2023-05-31
-  description: "Conducted research in computer vision"
+- position: "Research Consultant"
+  company: "Lexapar / JSW"
+  start_date: 2023-07-01
+  end_date: 2023-08-31
+  description: "Focused on developing and enhancing Knowledge Graphs, Legal NLP, Named Entity Recognition (NER), and relationship extraction."
+  highlights:
+    - "Advanced knowledge graph development for legal data"
+    - "Enhanced NER and relationship extraction methods for legal applications"
+
+- position: "Applied Science Intern"
+  company: "Amazon, Alexa"
+  start_date: 2024-01-01
+  end_date: 2024-06-30
+  description: "Conducted research on explainable AI and multilingual data generation for fairness in language processing."
+  highlights:
+    - "Developed data augmentation strategies to reduce bias and enhance fairness"
+    - "Generated explanations for underperforming AI models using methods ranging from TF-IDF to advanced LLMs"
+    - "Created annotated datasets to address accuracy issues in Alexa concept clusters"
+
+- position: "Applied Science Intern"
+  company: "Amazon, Alexa"
+  start_date: 2022-05-01
+  end_date: 2022-07-31
+  description: "Focused on data generation and augmentation for voice assistants, improving bias and fairness."
+  highlights:
+    - "Designed data augmentation for improved fairness across multiple languages"
+    - "Conducted experiments to understand AI behavior with explainable methods"
+
+- position: "Intern Computational Linguist"
+  company: "Navana Tech"
+  start_date: 2021-10-01
+  end_date: 2022-04-30
+  description: "Researched and implemented computational linguistics solutions, focusing on automated annotation and Indian phonology."
+  highlights:
+    - "Automated annotation pipelines, accelerating language processing"
+    - "Collaborated with speech and language consultants to capture dialectal variations across Indian languages"
+    - "Researched phonological rules to address pattern-based errors in language data"
+
+- position: "Intern Data Science & Linguistics"
+  company: "intelo.ai"
+  start_date: 2021-06-01
+  end_date: 2022-01-31
+  description: "Developed NLP solutions for B2B CRM SaaS, specializing in keyword extraction, summarization, and sentence similarity."
+  highlights:
+    - "Built tools for keyword extraction and summarization in CRM systems"
+    - "Implemented sentence similarity models to enhance CRM functionalities"
