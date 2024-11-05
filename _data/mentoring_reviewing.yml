@@ -1,0 +1,29 @@
+mentoring_reviewing:
+  - category: "Reviewing"
+    date: "2023-24"
+    description: "Reviewed papers submitted to IEEE TPAMI and EMNLP. Served as Reviewer & Committee Member at DravidianLangTech 2023."
+    links:
+      - title: "IEEE TPAMI"
+        url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34"
+      - title: "EMNLP 2024"
+        url: "https://2024.emnlp.org/"
+      - title: "DravidianLangTech 2023"
+        url: "https://dravidianlangtech.github.io/2023/"
+
+  - category: "Research Mentor"
+    date: "2022-24"
+    description: "Mentored and collaborated with labmates and juniors under the guidance of my advisors."
+    advisors:
+      - name: "Prof. Manish Gupta"
+        url: "https://www.microsoft.com/en-us/research/people/gmanish/"
+      - name: "Prof. Manish Shrivastava"
+        url: "https://scholar.google.co.in/citations?user=sIvMnGQAAAAJ&hl=en"
+
+  - category: "Teaching Assistant"
+    date: "2021-22"
+    description: "TA for Intro to Linguistics 1 & 2 and Language Typology & Universals. Assisted in course redesign, grading, and tutorials."
+    instructors:
+      - name: "Prof. Aditi Mukherjee"
+        url: "https://www.iiit.ac.in/people/faculty/aditi.mukherjee/"
+      - name: "Prof. Radhika Mukherjee"
+        url: "https://scholar.google.co.in/citations?user=DsIpZR0AAAAJ&hl=en"
