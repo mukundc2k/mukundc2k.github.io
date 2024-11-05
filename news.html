@@ -5,12 +5,20 @@ navbar_title: News
 ---
 <div class="row">
     <div class="col-12">
-        {% if site.news %}
-            {% for item in site.news %}
+        {% if site.data.academic_news.news %}
+            {% for item in site.data.academic_news.news %}
             <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
                 <div class="p-3">
-                    {% if item.date %}<p class="text-muted">{{ item.date | date: "%b %d, %Y" }}</p>{% endif %}
-                    {{ item.content }}
+                    <h4>{{ item.title }}</h4>
+                    {% if item.date %}<p class="text-muted">{{ item.date }}</p>{% endif %}
+                    {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+                    {% if item.links %}
+                        <ul>
+                            {% for link in item.links %}
+                                <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
