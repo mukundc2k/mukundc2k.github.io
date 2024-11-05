@@ -4,37 +4,17 @@ title: Achievements
 navbar_title: Achievements
 ---
 <div class="row">
-    <div class="col-12 col-lg-10">
+    <div class="col-12">
         {% if site.data.achievements %}
-            {% assign achievements_by_type = site.data.achievements | group_by: 'type' %}
-            {% for type in achievements_by_type %}
-            <h2 class="pt-4">{{ type.name }}</h2>
-            {% assign items = type.items | sort: 'date' | reverse %}
-            {% for item in items %}
-            <div class="card mb-3">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <p class="text-muted mb-1">
-                                {% if item.date %}{{ item.date | date: "%b %Y" }}{% endif %}
-                            </p>
-                        </div>
-                        <div class="col-md-9">
-                            <h5>{{ item.title }}</h5>
-                            {% if item.description %}<p>{{ item.description }}</p>{% endif %}
-                            {% if item.link %}
-                            <a href="{{ item.link }}" class="btn btn-sm btn-outline-primary">Learn More</a>
-                            {% endif %}
-                        </div>
-                    </div>
+            {% for item in site.data.achievements %}
+            <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+                <div class="p-3">
+                    <h4>{{ item.title }}</h4>
+                    {% if item.date %}<p class="text-muted">{{ item.date }}</p>{% endif %}
+                    {% if item.description %}<p>{{ item.description }}</p>{% endif %}
                 </div>
             </div>
             {% endfor %}
-            {% endfor %}
-        {% else %}
-            <div class="alert alert-info">
-                No achievements data available yet.
-            </div>
         {% endif %}
     </div>
 </div>
