@@ -5,13 +5,21 @@ navbar_title: Achievements
 ---
 <div class="row">
     <div class="col-12">
-        {% if site.data.achievements %}
-            {% for item in site.data.achievements %}
+        {% if site.data.achievements.achievements %}
+            {% for item in site.data.achievements.achievements %}
             <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
                 <div class="p-3">
                     <h4>{{ item.title }}</h4>
+                    <h5>{{ item.institution }}</h5>
                     {% if item.date %}<p class="text-muted">{{ item.date }}</p>{% endif %}
                     {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+                    {% if item.links %}
+                        <ul>
+                            {% for link in item.links %}
+                                <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
