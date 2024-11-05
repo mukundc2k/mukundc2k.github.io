@@ -5,29 +5,38 @@ navbar_title: Education
 ---
 <div class="row">
     <div class="col-12 col-lg-10">
-        {% assign education = site.data.education | sort: 'end_date' | reverse %}
-        {% for item in education %}
-        <div class="card mb-4">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-3">
-                        <p class="text-muted mb-1">{{ item.start_date | date: "%Y" }} - {{ item.end_date | date: "%Y" }}</p>
-                    </div>
-                    <div class="col-md-9">
-                        <h4>{{ item.degree }}</h4>
-                        <h5>{{ item.institution }}</h5>
-                        <p>{{ item.description }}</p>
-                        {% if item.achievements %}
-                        <ul>
-                            {% for achievement in item.achievements %}
-                            <li>{{ achievement }}</li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
+        {% if site.data.education %}
+            {% assign education = site.data.education | sort: 'end_date' | reverse %}
+            {% for item in education %}
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p class="text-muted mb-1">
+                                {% if item.start_date %}{{ item.start_date | date: "%Y" }}{% endif %}
+                                {% if item.end_date %}- {{ item.end_date | date: "%Y" }}{% endif %}
+                            </p>
+                        </div>
+                        <div class="col-md-9">
+                            <h4>{{ item.degree }}</h4>
+                            <h5>{{ item.institution }}</h5>
+                            {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+                            {% if item.achievements %}
+                            <ul>
+                                {% for achievement in item.achievements %}
+                                <li>{{ achievement }}</li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        {% endfor %}
+            {% endfor %}
+        {% else %}
+            <div class="alert alert-info">
+                No education data available yet.
+            </div>
+        {% endif %}
     </div>
 </div>
