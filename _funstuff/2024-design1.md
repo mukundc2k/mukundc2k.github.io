@@ -1,9 +1,9 @@
 ---
-title: "The Substance"
+title: "Indian Architecture Channel"
 date: 2024-11-01 00:00:00 +0800
 category: "Design and Fashion"
 description: >-
-  Non-supernatural horror has been my favourite genre. I love movies that make me think; they are relaxing. The Substance turned out to be the best for that this year. I paired that with It's What's Inside and a Chucky (movies and series) binge. A big sci-fi thriller series recommendation, which is super well made in the same vein, is Russian Doll. Natasha Lyonne has been mesmerising between this, But I'm a Cheerleader, and His Three Daughters!
+  I follow design and fashion choices/patterns/intricacies in architecture, clothes, and more. I appreciate creators in the field pointing out these details for the people outside the field, which makes it more accessible for everyone and social media a better place for me! This channel on Instagram is a new find that explores some very well-thought-out but rarely talked-about architectural feats in India.
 cover: "/assets/images/covers/sbs.webp"
 links:
   letterboxd: https://boxd.it/zanS
