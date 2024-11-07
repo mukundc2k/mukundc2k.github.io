@@ -2,34 +2,30 @@
 layout: default
 title: Currently Into
 navbar_title: CurrentlyInto
+body_attr: >-
+  data-spy="scroll" data-target="#navbar-category" data-offset="100"
 ---
 
-<h1>Currently Into</h1>
+{% assign items_by_category = site.items | group_by: "category" %}
 
-<div id="currently-into-carousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        {% assign items = site.data.currently_into | sort: "date" | reverse | where: "show", true %}
-        {% assign chunked_items = items | each_slice: 4 %}
-        {% for chunk in chunked_items %}
-        <div class="carousel-item {% if forloop.first %}active{% endif %}">
-            <div class="row">
-                {% for item in chunk %}
-                <div class="col-6 col-md-3">
-                    <div class="card border-0 shadow-sm bg-white">
-                        <img src="{{ item.image_url | relative_url }}" class="img-fluid rounded" alt="{{ item.alt_text }}">
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
+<div class="row">
+    <div class="col-12 col-lg-10">
+        {% for category in items_by_category %}
+        <h2 class="pt-4" id="category-{{ category.name }}">{{ category.name }}</h2>
+        <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+            {% for item in category.items %}
+                {% include widgets/publication_item.html item=item %}
+            {% endfor %}
         </div>
         {% endfor %}
     </div>
-    <a class="carousel-control-prev" href="#currently-into-carousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#currently-into-carousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </a>
+
+    <div class="col-2 d-none d-lg-block">
+        <div id="navbar-category" class="nav nav-pills flex-column sticky-top" style="top: 80px">
+            {% for category in items_by_category %}
+            <a class="nav-link d-block" href="#category-{{ category.name }}">{{ category.name }}</a>
+            {% endfor %}
+        </div>
+    </div>
+
 </div>
