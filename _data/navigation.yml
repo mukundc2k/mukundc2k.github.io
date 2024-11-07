@@ -5,6 +5,8 @@ pages:
   url: /papers
 - name: News
   url: /news
+- name: Fun Stuff
+  url: /funstuff
 - name: Experience
   url: /experience
 - name: Extrademia
@@ -15,5 +17,3 @@ pages:
   url: /education
 - name: Achievements
   url: /achievements
-- name: Fun Stuff
-  url: /funstuff
