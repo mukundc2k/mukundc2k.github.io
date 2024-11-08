@@ -7,6 +7,8 @@ pages:
   url: /news
 - name: Fun Stuff
   url: /funstuff
+- name: Resume
+  url: /resume
 - name: Experience
   url: /experience
 - name: Extrademia
