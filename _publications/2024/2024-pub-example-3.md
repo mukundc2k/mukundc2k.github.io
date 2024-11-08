@@ -15,6 +15,6 @@ authors:
   - ...
   - Preslav Nakov
 links:
-  Paper: https://github.com/mbzuai-nlp/Llama-3-Nanda-10B-Chat/blob/main/Llama-3-Nanda-10B-Chat-Paper.pdf
+  Technical Report: https://github.com/mbzuai-nlp/Llama-3-Nanda-10B-Chat/blob/main/Llama-3-Nanda-10B-Chat-Paper.pdf
   HuggingFace: https://huggingface.co/MBZUAI/Llama-3-Nanda-10B-Chat
 ---
