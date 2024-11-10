@@ -25,10 +25,3 @@ news:
     links:
       - title: "Huggingface and the Preprint!"
         url: "https://huggingface.co/MBZUAI/Llama-3-Nanda-10B-Chat"
-
-  - date: "2024-10-15"
-    title: "Submitted to NAACL"
-    description: "Submitted the work on benchmarking & analysis of how LLMs break down extremely low resource languages & data-constrained puzzles across various linguistic levels."
-    links:
-      - title: "unveiLing: What makes Linguistics Olympiad puzzles tricky for LLMs?"
-        url: "https://openreview.net/forum?id=TvbouEnmSE"
