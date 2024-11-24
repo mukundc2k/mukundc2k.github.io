@@ -1,7 +1,7 @@
 entries:
   - category: "Reviewing"
     date: "2023-24"
-    description: "Reviewed papers submitted to IEEE TPAMI and EMNLP. Reviewer & Committee Member at DravidianLangTech - 2023."
+    description: "Reviewed papers submitted to IEEE TPAMI, EMNLP, and ARR. Reviewer & Committee Member at DravidianLangTech - 2023."
     links:
       - title: "IEEE TPAMI"
         url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34"
@@ -9,6 +9,8 @@ entries:
         url: "https://2024.emnlp.org/"
       - title: "DravidianLangTech 2023"
         url: "https://dravidianlangtech.github.io/2023/"
+      - title: "OpenReview Profile"
+        url: "https://openreview.net/profile?id=~Mukund_Choudhary1"
 
   - category: "Research Mentor"
     date: "2022-24"
