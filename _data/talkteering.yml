@@ -24,7 +24,8 @@ talks_and_volunteering:
   - role: "Volunteer"
     description: "Actively involved in educational and community-building volunteer activities."
     highlights:
-      - "Local Logistics Volunteer at ICDM (IEEE International Conference on Data Mining) 2024"
+      - "Local Logistics Volunteer at IEEE Intl. Conference on Data Mining 2024"
+      - "Vice President and Linguistics Brain at Sherlock's Sidekicks, the Problem Solving Club at MBZUAI"
       - "National Coordinator & Problem Committee Member for Panini Linguistics Olympiad"
       - "Mental Health Support Group volunteer"
       - "College quiz (IIIT) & problem-solving (MBZUAI) clubs in leading positions."
@@ -33,7 +34,5 @@ talks_and_volunteering:
         url: "https://ltrc.iiit.ac.in/nlpmt/plo/"
       - title: "Mental Health Support Group"
         url: "https://sites.google.com/view/iiith-mh-site"
-        - date: "2024-12-04"
-      - title: "ICDM 2024"
+      - title: "IEEE International Conference on Data Mining"
         url: "https://icdm2024.org/"
-
