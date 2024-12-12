@@ -12,6 +12,24 @@ news:
       - title: "11th ACCS"
         url: "https://www.hss.iitb.ac.in/accs2024/index.html"
 
+  - date: "2024-12-05"
+    title: "Social Diversity & Inclusion (SD&I) Co-Chair"
+    description: "I am co-chairing Social Diversity & Inclusion events like Birds of a Feather sessions this year at COLING! (Jan, 2025)"
+    links:
+      - title: "COLING 2025"
+        url: "https://coling2025.org/"
+      - title: "Birds of a Feather Call"
+        url: "https://coling2025.org/calls/bof/"
+
+  - date: "2024-12-04"
+    title: "ICDM and more"
+    description: "Volunteered at IEEE International Conference on Data Mining and helped review 4+ papers for COLING and ARR Oct cycle."
+    links:
+      - title: "ICDM 2024"
+        url: "https://icdm2024.org/"
+      - title: "Openreview"
+        url: "https://openreview.net/profile?id=~Mukund_Choudhary1"
+
   - date: "2024-10-23"
     title: "Attended Innovation Xchange"
     description: "Participated as an AI panellist at the Innovation Xchange on Future of World Telecom Standards, hosted by the Government of India, Dept. of Telecommunications, and ITU-WTSA'24."
