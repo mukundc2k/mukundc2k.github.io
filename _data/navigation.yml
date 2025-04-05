@@ -7,14 +7,14 @@ pages:
   url: /news
 - name: Fun Stuff
   url: /funstuff
-- name: Resume
-  url: /resume
 - name: Experience
   url: /experience
-- name: Extrademia
-  url: /mentorreview
 - name: Talkteering
   url: /talkteering
+- name: Resume
+  url: /resume
+- name: Extrademia
+  url: /mentorreview
 - name: Education
   url: /education
 - name: Achievements
