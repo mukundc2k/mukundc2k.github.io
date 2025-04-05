@@ -1,29 +1,25 @@
 news:
-  - date: "2024-12-18"
-    title: "Attending CODS-COMAD @ IIT Jodhpur, India."
-    description: "More details TBA"
+  - date: "2024-12-05"
+    title: "Social Diversity & Inclusion (SD&I) Chair"
+    description: "Organised Birds of a Feather sessions at COLING (Jan, 2025)"
+    links:
+      - title: "COLING 2025"
+        url: "https://coling2025.org/"
+      - title: "Birds of a Feather"
+        url: "https://coling2025.org/program/bof/"
 
   - date: "2024-12-11"
-    title: "Presenting at SAFAL and Attending ACCS @ IIT Bombay, India"
-    description: "Presenting a poster on my masters thesis on Pseudowords at The South Asian Forum on the Acquisition and Processing of Language. The conference is colocated with Annual Conference of Cognitive Science this year!"
+    title: "Indian conferences"
+    description: "Presented a poster on my masters thesis on Pseudowords at The South Asian Forum on the Acquisition and Processing of Language. The conference was colocated with Annual Conference of Cognitive Science 2024. Also attended CODS COMAD at IIT Jodhpur."
     links:
       - title: "5th SAFAL"
         url: "https://sites.google.com/view/safal-2024"
       - title: "11th ACCS"
         url: "https://www.hss.iitb.ac.in/accs2024/index.html"
 
-  - date: "2024-12-05"
-    title: "Social Diversity & Inclusion (SD&I) Co-Chair"
-    description: "I am co-chairing Social Diversity & Inclusion events like Birds of a Feather sessions this year at COLING! (Jan, 2025)"
-    links:
-      - title: "COLING 2025"
-        url: "https://coling2025.org/"
-      - title: "Birds of a Feather Call"
-        url: "https://coling2025.org/calls/bof/"
-
   - date: "2024-12-04"
-    title: "ICDM and more"
-    description: "Volunteered at IEEE International Conference on Data Mining and helped review 4+ papers for COLING and ARR Oct cycle."
+    title: "ICDM"
+    description: "Volunteered at IEEE International Conference on Data Mining."
     links:
       - title: "ICDM 2024"
         url: "https://icdm2024.org/"
@@ -36,10 +32,3 @@ news:
     links:
       - title: "More about the event here!"
         url: "https://www.itu.int/en/ITU-T/Workshops-and-Seminars/2024/1023/Pages/default.aspx"
-
-  - date: "2024-10-30"
-    title: "New LLM Model Released"
-    description: "Llama-3-Nanda-10B-Chat: An Open Generative LLM for Hindi, the current based open-source Hindi LLM in the range of 8-14B."
-    links:
-      - title: "Huggingface and the Preprint!"
-        url: "https://huggingface.co/MBZUAI/Llama-3-Nanda-10B-Chat"
