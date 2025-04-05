@@ -1,31 +1,23 @@
 entries:
   - category: "Conference chair"
     date: "2025"
-    description: "I am co-chairing Social Diversity & Inclusion (SD&I) for facilitating events like Birds of a Feather sessions this year at COLING! (Jan, 2025)"
+    description: "Chaired Social Diversity & Inclusion (SD&I) for facilitating Birds of a Feather sessions at COLING! (Jan, 2025)"
     links:
       - title: "COLING 2025"
         url: "https://coling2025.org/"
       - title: "Birds of a Feather Call"
-        url: "https://coling2025.org/calls/bof/"
+        url: "https://coling2025.org/program/bof/"
 
   - category: "Reviewing"
     date: "2023-24"
-    description: "Reviewed papers submitted to IEEE TPAMI, EMNLP, COLING, and ARR. Reviewer & Committee Member at DravidianLangTech - 2023."
+    description: "Reviewed (and emergency reviewed) papers submitted to IEEE TPAMI, EMNLP, COLING, ACL, and ARRs in general. I was also a reviewer & committee member at DravidianLangTech - 2023."
     links:
-      - title: "IEEE TPAMI"
-        url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34"
-      - title: "EMNLP 2024"
-        url: "https://2024.emnlp.org/"
-      - title: "DravidianLangTech 2023"
-        url: "https://dravidianlangtech.github.io/2023/"
-      - title: "COLING 2025"
-        url: "https://coling2025.org/"
       - title: "OpenReview Profile"
         url: "https://openreview.net/profile?id=~Mukund_Choudhary1"
 
   - category: "Research Mentor"
     date: "2022-24"
-    description: "Mentored & collaborated with labmates & juniors under advisors Prof. Manish Gupta and Prof. Manish Shrivastava."
+    description: "Mentored & collaborated with labmates & juniors under advisors:"
     links:
       - title: "Prof. Manish Gupta"
         url: "https://www.microsoft.com/en-us/research/people/gmanish/"
