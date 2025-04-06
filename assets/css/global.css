@@ -29,7 +29,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 a {
-    font-family: 'Arial Narrow', Arial, sans-serif;
+/*     font-family: 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Courier', mono;
     color: #78CC04;
 }
 
