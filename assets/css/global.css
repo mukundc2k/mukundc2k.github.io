@@ -1,40 +1,15 @@
 @charset "utf-8";
 body {
 /*     font-family: "Lato", sans-serif; */
-    font-family: 'Consolas', mono;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
 }
 
-h1,
-.h1 {
-/*     font-family: 'Arial Narrow', Arial, sans-serif; */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
-    color: #AD3B19;
-}
-
-h2,
-.h2 {
-/*     font-family: 'Arial Narrow', Arial, sans-serif; */
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-weight: 575;
-    color: #AD3B19;
-}
-
-h3,
-.h3 {
-/*     font-family: 'Arial Narrow', Arial, sans-serif; */
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-weight: 512;
-    color: #AD3B19;
-}
-
-h4, h5, h6,
-.h4, .h5, .h6 {
-/*     font-family: 'Arial Narrow', Arial, sans-serif; */
-    font-family: 'Arial', Arial, sans-serif;
-    font-weight: 450;
     color: #AD3B19;
 }
 
@@ -48,15 +23,13 @@ h4, h5, h6,
 }
 
 .navbar {
-/*     font-family: 'Arial Narrow', Arial, sans-serif; */
-    font-family: 'Didot', Arial, serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     opacity: 0.95;
     color: #AD3B19;
 }
 
 a {
-/*     font-family: 'Arial Narrow', Arial, sans-serif; */
-    font-family: 'Didot', Arial, serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     color: #8D4A35;
 }
 
