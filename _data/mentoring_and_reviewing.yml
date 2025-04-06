@@ -1,12 +1,7 @@
 entries:
   - category: "Conference chair"
     date: "2025"
-    description: "Chaired Social Diversity & Inclusion (SD&I) for facilitating Birds of a Feather sessions at COLING! (Jan, 2025)"
-    links:
-      - title: "COLING 2025"
-        url: "https://coling2025.org/"
-      - title: "Birds of a Feather Call"
-        url: "https://coling2025.org/program/bof/"
+    description: "Chaired Social Diversity & Inclusion (SD&I) for facilitating <a href='https://coling2025.org/program/bof/'>Birds of a Feather</a> sessions at <a href='https://coling2025.org/'>COLING</a>! (Jan, 2025)"
 
   - category: "Reviewing"
     date: "2023-24"
