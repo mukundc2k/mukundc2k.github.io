@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
-    color: #78CC04;
+    color: #AD3B19;
 }
 
 .text-profile-position {
@@ -25,12 +25,12 @@ h1, h2, h3, h4, h5, h6,
 .navbar {
     font-family: 'Arial Narrow', Arial, sans-serif;
     opacity: 0.95;
-    color: #78CC04;
+    color: #AD3B19;
 }
 
 a {
     font-family: 'Arial Narrow', Arial, sans-serif;
-    color: #78CC04;
+    color: #CF8869;
 }
 
 .inline-badge {
