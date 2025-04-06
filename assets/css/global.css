@@ -1,7 +1,7 @@
 @charset "utf-8";
 body {
 /*     font-family: "Lato", sans-serif; */
-    font-family: 'Didot', serif;
+    font-family: 'Courier', mono;
     font-weight: 400;
     padding-top: 5.0rem;
 }
@@ -9,7 +9,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
 /*     font-family: 'Arial Narrow', Arial, sans-serif; */
-    font-family: 'Andale Mono', Arial, mono;
+    font-family: 'Didot', Arial, serif;
     font-weight: 700;
     color: #AD3B19;
 }
@@ -25,14 +25,14 @@ h1, h2, h3, h4, h5, h6,
 
 .navbar {
 /*     font-family: 'Arial Narrow', Arial, sans-serif; */
-    font-family: 'Andale Mono', Arial, mono;
+    font-family: 'Didot', Arial, serif;
     opacity: 0.95;
     color: #AD3B19;
 }
 
 a {
 /*     font-family: 'Arial Narrow', Arial, sans-serif; */
-    font-family: 'Andale Mono', Arial, mono;
+    font-family: 'Didot', Arial, serif;
     color: #8D4A35;
 }
 
