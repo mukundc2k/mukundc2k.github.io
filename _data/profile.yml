@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "mukund"
 
 positions:
-- name: PhD student in NLP @ MBZUAI under [Prof. Monojit Choudhury](https://scholar.google.com/citations?user=WR1ImCMAAAAJ&hl=en)
+- name: PhD student in NLP @ MBZUAI under <a href="https://scholar.google.com/citations?user=WR1ImCMAAAAJ&hl=en">Prof. Monojit Choudhury</a>
 # - logo: /assets/images/badges/PKU_red.png
   # name: B.S., Peking University (2021)
 
