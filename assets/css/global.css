@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
-    color: #AD3B19;
+    color: #78CC04;
 }
 
 .text-profile-position {
@@ -25,12 +25,12 @@ h1, h2, h3, h4, h5, h6,
 .navbar {
     font-family: 'Arial Narrow', Arial, sans-serif;
     opacity: 0.95;
-    color: #AD3B19;
+    color: #78CC04;
 }
 
 a {
     font-family: 'Arial Narrow', Arial, sans-serif;
-    color: #8D4A35;
+    color: #78CC04;
 }
 
 .inline-badge {
@@ -66,7 +66,7 @@ img.lazy {
 }
 
 strong {
-    color: #AD3B19;
+    color: #78CC04;
 }
 
 /* .email-text {
