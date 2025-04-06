@@ -1,5 +1,4 @@
 ---
-(* title:          "Llama-3-Nanda-10B-Chat: An Open Generative LLM for Hindi" *)
 title:          "Llama-3-AnonFlavor: An Open Generative LLM for AnonLang"
 date:           2025-03-28 00:01:00 +0800
 selected:       true
@@ -15,7 +14,4 @@ authors:
   - Mukund Choudhary
   - ...
   - Preslav Nakov
-(* links:
-  Technical Report: https://github.com/mbzuai-nlp/Llama-3-Nanda-10B-Chat/blob/main/Llama-3-Nanda-10B-Chat-Paper.pdf
-  HuggingFace: https://huggingface.co/MBZUAI/Llama-3-Nanda-10B-Chat *)
 ---
