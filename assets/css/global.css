@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .navbar {
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Monaco', mono;
     opacity: 0.95;
     color: #78CC04;
 }
