@@ -1,7 +1,6 @@
 @charset "utf-8";
 body {
 /*     font-family: "Lato", sans-serif; */
-/*     font-family: 'Poppins', sans-serif; */
     font-family: 'Rockwell', serif;
     font-weight: 400;
     padding-top: 5.0rem;
@@ -9,8 +8,7 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-/*     font-family: 'Arial Narrow', Arial, sans-serif; */
-    font-family: 'Goudy Old Style', Goudy Old Style, serif;
+    font-family: 'Century Gothic', Arial, sans-serif;
     font-weight: 700;
     color: #AD3B19;
 }
@@ -25,13 +23,13 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .navbar {
-    font-family: 'Goudy Old Style', Goudy Old Style, serif;
+    font-family: 'Century Gothic', Arial, sans-serif;
     opacity: 0.95;
     color: #AD3B19;
 }
 
 a {
-    font-family: 'Goudy Old Style', Goudy Old Style, serif;
+    font-family: 'Century Gothic', Arial, sans-serif;
     color: #8D4A35;
 }
 
@@ -74,4 +72,3 @@ strong {
 /* .email-text {
     font-family: Courier, monospace;
 } */
-
