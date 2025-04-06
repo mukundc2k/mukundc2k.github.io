@@ -6,11 +6,27 @@ body {
     padding-top: 5.0rem;
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+.h1 {
 /*     font-family: 'Arial Narrow', Arial, sans-serif; */
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
+    color: #AD3B19;
+}
+
+h2,
+.h2 {
+/*     font-family: 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: #AD3B19;
+}
+
+h3, h4, h5, h6,
+.h3, .h4, .h5, .h6 {
+/*     font-family: 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: 525;
     color: #AD3B19;
 }
 
