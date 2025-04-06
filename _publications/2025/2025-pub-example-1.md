@@ -10,7 +10,7 @@ abstract: >-
 cover:          /assets/images/covers/figure_6.png
 authors:
   - Mukund Choudhary
-  - K V Aditya Srivatsa
+  - KV Aditya Srivatsa
   - Gaurja Aeron
   - ...
   - Ekaterina Kochmar
