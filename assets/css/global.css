@@ -1,14 +1,14 @@
 @charset "utf-8";
 body {
 /*     font-family: "Lato", sans-serif; */
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Century Gothic', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     color: #AD3B19;
 }
@@ -23,13 +23,13 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .navbar {
-    font-family: 'Century Gothic', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     opacity: 0.95;
     color: #AD3B19;
 }
 
 a {
-    font-family: 'Courier', mono;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     color: #8D4A35;
 }
 
