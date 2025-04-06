@@ -12,6 +12,4 @@ achievements:
   - date: "2016-2017"
     institution: "High School"
     title: "International Linguistics Olympiad (IOL)"
-    links:
-      - title: "Qualified to represent Team India at the International Linguistics Olympiad in 2016 and 2017."
-        url: "https://ioling.org/"
+    description: "Qualified to represent Team India at the <a href='https://ioling.org/'>International Linguistics Olympiad</a> in 2016 and 2017."
