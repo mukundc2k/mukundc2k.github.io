@@ -26,22 +26,22 @@ short_bio: >-
     <thead>
       <tr style="background-color: #f0f0f0;">
         <th style="border: 1px solid #ddd; padding: 8px; text-align: left;"></th>
-        <th style="border: 1px solid #ddd; padding: 8px; text-align: center;"><b>dataset/generation</b></th>
-        <th style="border: 1px solid #ddd; padding: 8px; text-align: center;"><b>interpretability</b></th>
-        <th style="border: 1px solid #ddd; padding: 8px; text-align: center;"><b>evaluation/analysis</b></th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: center;"><b>dataset<br>generation</b></th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: center;"><b>interpret-<br>ability</b></th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: center;"><b>evaluation<br>analysis</b></th>
         <th style="border: 1px solid #ddd; padding: 8px; text-align: center;"><b>others</b></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">linguistics/nlp</td>
+        <td style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">linguistics<br>nlp</td>
         <td style="border: 1px solid #ddd; padding: 8px;"><span style="color: red;">code-mixed twitter morphology</span>, <span style="color: green;">datasets & ontologies (misinformation, loneliness)</span>, <span style="color: green;">phonological transcription rules</span></td>
         <td style="border: 1px solid #ddd; padding: 8px;"><span style="color: green;">interpretability</span></td>
         <td style="border: 1px solid #ddd; padding: 8px;"><span style="color: green;">jira ticket summaries</span></td>
         <td style="border: 1px solid #ddd; padding: 8px;"><span style="color: red;">historical linguistics</span></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">cogsci/psych</td>
+        <td style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">cogsci<br>psych</td>
         <td style="border: 1px solid #ddd; padding: 8px;"></td>
         <td style="border: 1px solid #ddd; padding: 8px;"></td>
         <td style="border: 1px solid #ddd; padding: 8px;"><span style="color: green;">behavioural experiment design (aphasia, syntactic distortion)</span></td>
