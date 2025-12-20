@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "mukund choudhary"
 
 positions:
-- name: <br>hi! i am a 2nd year PhD student in NLP @ <a href="https://mbzuai.ac.ae/">MBZUAI</a> advised by <a href="https://scholar.google.com/citations?user=WR1ImCMAAAAJ&hl=en">Prof. Monojit Choudhury</a> and <a href="https://scholar.google.com/citations?user=qNP6lAwAAAAJ&hl=en">Prof. Ted Briscoe</a>, focusing on comparing how LLMs structure language to how humans do or <b>LLM linguistics</b>.
+- name: <br>hi! i am a 2nd year PhD student in NLP @ <a href="https://mbzuai.ac.ae/">MBZUAI</a> advised by <a href="https://scholar.google.com/citations?user=WR1ImCMAAAAJ&hl=en">Monojit Choudhury</a>, focusing on comparing how LLMs structure language to how humans do / <b>LLM linguistics</b>.
 # - logo: /assets/images/badges/PKU_red.png
   # name: B.S., Peking University (2021)
 
@@ -19,7 +19,7 @@ linkedin: mukundc2k
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  to this end, over the last 1.5 years i have cornered LLMs to <b>(1)</b> probe which linguistic features correlate with their low performance on metalinguistic reasoning puzzles (COLM, 2025), <b>(2)</b> observing the extent of LLM modeling of human linguistic variation in verb choice in a code-mixed Hindi-English sentence (under review), and <b>(3)</b> how LLMs model abstract hierarchical sequences in comparison to living beings from a cognitive-science lens (WIP). <br><br>
+  to this end, i have cornered LLMs to <b>(1)</b> probe which linguistic features correlate with their low performance on <b>metalinguistic reasoning puzzles</b> (<a href="https://openreview.net/forum?id=fcRcl1EXc4">COLM, 2025</a>), <b>(2)</b> observing the extent of LLM modeling of human linguistic variation in verb choice in a code-mixed Hindi-English sentence (under review), and <b>(3)</b> how LLMs model abstract hierarchical sequences in comparison to living beings from a cognitive-science lens (WIP). <br><br>
   before this i completed my <b>MSc. in Computational Linguistics</b> at IIIT Hyderabad. linguistic complexity and how tech models it, was also the theme for my masters thesis (cog.sci. + computational phonology), on <b>pseudowords generation</b> (e.g. for LLM subword probes) and <b>native speaker evaluation</b> in low-resource languages. it also inspired me as a high schooler who was solving literal linguistic reasoning puzzles for fun.<br><br>
   a list of other things i liked working on- empathy, interpretability, creativity, historical linguistics, code-mixed twitter morphology, password psycholinguistics, making new datasets & ontologies (misinformation, loneliness, etc.), behavioural experiment design (aphasia, syntactic distortion, etc.), and more! <br><br>    
   outside academia, ive worked on jira ticket summaries, and coded up phonological transcription rules for dialects at startups. i have interned at Amazon for better fairness & de-biasing through adversarial prompting & artificial data augmentation. as a data scientist, i have built agentic assistant chatbots, with customizable RAG on top of Llama including the UX, Architecture, full-stack haberdashery, and more. <br><br><br>    
