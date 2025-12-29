@@ -1,8 +1,8 @@
 ---
-title:          "unveiLing: What Makes Anon Tricky for LLMs?"
+title:          "unveiLing: What Makes Linguistics Olympiad Puzzles Tricky for LLMs?"
 date:           2025-03-29
 selected:       true
-pub:            "Under Review"
+pub:            "COLM [(link)](https://openreview.net/forum?id=fcRcl1EXc4)"
 pub_date:       "2025"
 
 abstract: >-
