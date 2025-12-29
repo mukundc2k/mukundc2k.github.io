@@ -2,7 +2,7 @@
 title:          "unveiLing: What Makes Linguistics Olympiad Puzzles Tricky for LLMs?"
 date:           2025-03-29
 selected:       true
-pub:            "COLM [(link)](https://openreview.net/forum?id=fcRcl1EXc4)"
+pub:            "COLM"
 pub_date:       "2025"
 
 abstract: >-
@@ -15,4 +15,7 @@ authors:
   - ...
   - Ekaterina Kochmar
   - Monojit Choudhury
+links:
+  Paper: https://openreview.net/forum?id=fcRcl1EXc4
+  Github: https://github.com/mukundc2k/unveiling
 ---
