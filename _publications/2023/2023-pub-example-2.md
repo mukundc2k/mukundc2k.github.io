@@ -13,5 +13,5 @@ authors:
   - Bapi Raju Surampudi
   - Dipti Misra Sharma
 links:
-  Paper: https://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/1275
+  Thesis: https://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/1275
 ---
