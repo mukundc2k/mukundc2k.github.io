@@ -11,8 +11,8 @@ pages:
   url: /resume
 - name: /acad++
   url: /mentorreview
-- name: /talking chair
-  url: /talkteering
+# - name: /talking chair
+#   url: /talkteering
 - name: /industry
   url: /experience
 # - name: Education
