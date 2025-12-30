@@ -5,15 +5,15 @@ pages:
   url: /papers
 # - name: News
 #   url: /news
-- name: _joy + inspo
+- name: _joy+inspo
   url: /funstuff
 - name: _résumé
   url: /resume
 - name: _volumenteering
   url: /mentorreview
-- name: _the talking chair
+- name: _talking chair
   url: /talkteering
-- name: industry that was
+- name: _industry was
   url: /experience
 # - name: Education
 #   url: /education
