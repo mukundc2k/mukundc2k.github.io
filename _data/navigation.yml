@@ -1,17 +1,17 @@
 pages:
 - name: Home
   url: /
-- name: publications
+- name: _publications
   url: /papers
 # - name: News
 #   url: /news
-- name: joy + inspo
+- name: _joy + inspo
   url: /funstuff
-- name: résumé
+- name: _résumé
   url: /resume
-- name: volumenteering
+- name: _volumenteering
   url: /mentorreview
-- name: the talking chair
+- name: _the talking chair
   url: /talkteering
 - name: industry that was
   url: /experience
