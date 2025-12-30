@@ -1,19 +1,19 @@
 pages:
-- name: Home
+- name: hi
   url: /
-- name: _publications
+- name: _papers
   url: /papers
 # - name: News
 #   url: /news
-- name: _joy+inspo
+- name: _joy
   url: /funstuff
 - name: _résumé
   url: /resume
-- name: _volumenteering
+- name: _acad++
   url: /mentorreview
 - name: _talking chair
   url: /talkteering
-- name: _industry was
+- name: _industry
   url: /experience
 # - name: Education
 #   url: /education
