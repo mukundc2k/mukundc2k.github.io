@@ -1,6 +1,6 @@
 ---
 title:          "Nanda Family: Open-Weights Generative Large Language Models for Hindi"
-date:           2026-01-01 00:01:00 +0800
+date:           2026-01-01
 selected:       true
 pub:            "Under Review"
 pub_date:       "2026"
