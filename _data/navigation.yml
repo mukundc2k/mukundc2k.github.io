@@ -1,21 +1,21 @@
 pages:
 - name: Home
   url: /
-- name: Publications
+- name: publications
   url: /papers
-- name: News
-  url: /news
-- name: Fun Stuff
+# - name: News
+#   url: /news
+- name: joy + inspo
   url: /funstuff
-- name: Experience
-  url: /experience
-- name: Talkteering
-  url: /talkteering
-- name: Resume
+- name: résumé
   url: /resume
-- name: Extrademia
+- name: volumenteering
   url: /mentorreview
-- name: Education
-  url: /education
-- name: Achievements
-  url: /achievements
+- name: the talking chair
+  url: /talkteering
+- name: industry that was
+  url: /experience
+# - name: Education
+#   url: /education
+# - name: Achievements
+#   url: /achievements
