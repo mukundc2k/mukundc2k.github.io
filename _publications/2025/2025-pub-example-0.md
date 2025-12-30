@@ -1,17 +1,22 @@
 ---
-title:          "Llama-3-AnonFlavor: An Open Generative LLM for AnonLang"
-date:           2025-03-28 00:01:00 +0800
+title:          "unveiLing: What Makes Linguistics Olympiad Puzzles Tricky for LLMs?"
+date:           2025-03-29
 selected:       true
-pub:            "Under Review"
+pub:            "COLM"
 pub_date:       "2025"
 
 abstract: >-
-  We introduce Llama-3-AnonFlavor-Chat, or Anon for short, a new state-of-the-art AnonLang-centric instruction tuned open generative large language model (LLM). Anon is adapted from the LLaMA-3-8B model via continuous pretraining with expansion of transformer blocks, following LLaMA Pro approach. This model employs the decoder-only architecture and has been trained on a mixture of AnonLang and English texts. With 10 billion parameters, Nanda demonstrates improved knowledge and reasoning capabilities in AnonLang, suprassing existing open AnonLang and multilingual models of comparable size by a substantial margin; it also achieves highly competitive performance in English. We release Anon as an open-sourced instruction-tuned model and provide a detailed overview of its training, tuning, safety alignment, and evaluation processes. We believe that this release will foster further research in AnonLang LLMs and support diverse practical applications across various domains.
-cover:          /assets/images/covers/figure5.png
+  for models that are large and are supposed to be good at language, they are kind of bad at human linguistics. we see that LO puzzles which are basic reasoning puzzles based on linguistic phenomena in extremely low resourced languages, but are exhaustive and completely solvable for highschoolers by design, are a challenge for LLMs. this is because they are bad at pattern matching, reasoning, etc. but more concretely we find that linguistic factors like morpholigcal complexity, closeness to English, and amount of evidence to understand how a linguistic feature (as per WALS) works, are highly correlated to poor performance. 
+cover:          /assets/images/covers/figure_6.png
 authors:
-  - Monojit Choudhury
-  - ...
   - Mukund Choudhary
+  - KV Aditya Srivatsa
+  - Gaurja Aeron
   - ...
-  - Preslav Nakov
+  - Ekaterina Kochmar
+  - Monojit Choudhury
+links:
+  Paper: https://openreview.net/forum?id=fcRcl1EXc4
+  Poster: https://drive.google.com/drive/folders/1NE8C1JPr5SRAjxL3h6LOjSjyLDrtaFSE
+  Github: https://github.com/mukundc2k/unveiling
 ---
