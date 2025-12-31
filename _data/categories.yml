@@ -1,7 +1,7 @@
-- name: Music
-- name: Movies and Series
-- name: Comics
-- name: Design and Fashion
-- name: Nice Tweet
-- name: Linguistic Puzzle
-- name: Other News
+- name: music
+- name: movies + series
+- name: comics
+- name: design + fashion
+- name: nice tweet
+- name: linguistic puzzle
+- name: other news
