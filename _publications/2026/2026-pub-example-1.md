@@ -2,7 +2,7 @@
 title:          "Do LLMs Model Human Linguistic Variation? A Case Study in Hindi-English Verb Code-Mixing"
 date:           2026-02-02
 selected:       true
-pub:            "Under Review"
+pub:            "EACL"
 pub_date:       "2026"
 
 abstract: >-
