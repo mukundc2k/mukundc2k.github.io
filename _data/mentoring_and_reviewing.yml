@@ -1,8 +1,12 @@
 entries:
-  - category: "organiser 🗂️"
-    date: "2022-25"
+  - category: "community 👥"
+    date: "2022-26"
     description: "i like helping organise events, connecting people, and making things smoother for a better exchange of ideas, I have been:"
     links:
+      - title: "🤝 honored with a community builder award here at MBZUAI's NLP Dept."
+        url: "https://drive.google.com/file/d/1FPRey-AKLQAYm-hLaStKAzl1aaZWjLuL/view?usp=sharing"
+      - title: "🦺 a volunteer at EACL 2026 12 hrs of registration and posters"
+        url: "https://drive.google.com/file/d/131pKJWTaKuezvU-Wh-od_py4stTksysy/view?usp=sharing"      
       - title: "🙋 chair of AACL-IJCNLP 2025's Volunteers for selecting, onboarding, and managing volunteers"
         url: "https://2025.aaclnet.org/organization/"
       - title: "🪑 chair of COLING 2025's Social Diversity & Inclusion (SD&I) for facilitating Birds of a Feather sessions"
@@ -15,9 +19,11 @@ entries:
         url: "https://kpsraipur.com/qpl/"
 
   - category: "talks 🎤"
-    date: "2023-25"
+    date: "2023-26"
     description: "love talking about linguistics, and ai when invited and on friends' podcasts:"
     links:
+      - title: "🗣 talked about my PhD so far to Saif's group at the National Research Council Canada and made an interactive RPG-ish game on the same!"
+        url: "https://drive.google.com/file/d/1aRoiUr_jOkxn1WS2VE-NNqG3NgCMReAM/view?usp=sharing"
       - title: "🎥 researchtrend.ai connect talks - LRM (on our unveiLing paper)"
         url: "https://www.youtube.com/watch?v=2GwJ2sSVrVo"
       - title: "🏛️ Innovation Xchange on Future of World Telecom Standards - AI Panellist (Govt. of India, Dept. of Telecommunications, ITU-WTSA'24)"
