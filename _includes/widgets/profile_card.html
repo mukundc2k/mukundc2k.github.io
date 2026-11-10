@@ -13,9 +13,9 @@
                             {{ position.name }}<br/>
                             {% endfor %}
                         </p>
-                        <p class="text-profile-bio">
+                        <div class="text-profile-bio mt-3">
                             {{ site.data.profile.short_bio }}
-                        </p>
+                        </div>
                         {% if site.data.profile.cv_link %}
                             <a target="_blank" href="{{ site.data.profile.cv_link }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
                         {% endif %}
@@ -65,6 +65,12 @@
                         {% if site.data.profile.twitter %}
                         <a class="pr-3 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
                             <i class="fab fa-twitter"></i> Twitter
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.profile.bluesky %}
+                        <a class="pr-3 no-break" target="_blank" href="https://bsky.app/profile/{{ site.data.profile.bluesky }}">
+                            {% include bluesky-icon.html %} Bluesky
                         </a>
                         {% endif %}
 

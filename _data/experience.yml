@@ -1,3 +1,12 @@
+- position: "Summer Intern"
+  company: "Mrinmaya Sachan's LRE lab, ETH Zürich"
+  start_date: 2026-05-12
+  end_date: 2026-08-15
+  description: "Explored and colaborated in topics of skills and evaluation in LLMs, and how they compare to human language learning and translation."
+  highlights:
+    - "Led a project to study and compare the trajectory of the skills required for language learning in LMs and humans."
+    - "Analyzed the Last Translation Benchmark by inducing a taxonomy over the translation skills LLMs failed on."
+
 - position: "Data Scientist"
   company: "Jio Platforms Ltd. (Reliance)"
   start_date: 2023-08-01

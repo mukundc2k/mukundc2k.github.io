@@ -15,7 +15,11 @@ navbar_title: acad++
                     {% if entry.links %}
                         <ul>
                             {% for link in entry.links %}
-                                <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+                                {% if link.url and link.url != "" %}
+                                <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a></li>
+                                {% else %}
+                                <li>{{ link.title }}</li>
+                                {% endif %}
                             {% endfor %}
                         </ul>
                     {% endif %}

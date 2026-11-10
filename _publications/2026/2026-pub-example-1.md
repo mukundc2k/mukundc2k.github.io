@@ -14,5 +14,6 @@ authors:
   - Gaurja Aeron
   - Monojit Choudhury
 links:
-  Paper draft and Poster: https://drive.google.com/drive/folders/1UiipNERjKUvjC3ho4cw1HXXmTvZpDZxN?usp=drive_link
+  Paper: https://doi.org/10.18653/v1/2026.findings-eacl.291
+  Video + Poster: https://drive.google.com/drive/folders/1UiipNERjKUvjC3ho4cw1HXXmTvZpDZxN?usp=drive_link
 ---
