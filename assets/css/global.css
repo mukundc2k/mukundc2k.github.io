@@ -150,6 +150,12 @@ strong {
     width: 14%;
 }
 
+/* behavioral interpretability holds the most, so it gets the widest column;
+   contrasts and comparisons split the rest */
+.ilbi-map thead th:nth-child(3) {
+    width: 36%;
+}
+
 /* row labels stay put while the table scrolls sideways on phones */
 .ilbi-map tbody th {
     position: sticky;
@@ -165,21 +171,54 @@ strong {
     font-weight: 400;
 }
 
+/* one item per line: left-aligned, a small marker, and wrapped lines indented
+   under their own text, so it's clear where one item ends and the next starts.
+   cells stay vertically centred (vertical-align: middle in the rule above). */
+.ilbi-map td {
+    text-align: left;
+}
+
 .ilbi-map td span {
     display: block;
+    position: relative;
+    padding-left: 1.05em;
+}
+
+.ilbi-map td span::before {
+    content: "\25B8";   /* ▸, takes the item's status colour */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.8em;
+    line-height: 1.6;
+    opacity: 0.8;
 }
 
 .ilbi-map td span + span {
-    margin-top: 0.5em;
+    margin-top: 0.7em;
+}
+
+/* the "across all of it" row stays one centred line, items split by a slash */
+.ilbi-map .ilbi-across td {
+    text-align: center;
 }
 
 .ilbi-map .ilbi-across td span {
     display: inline;
+    padding-left: 0;
+}
+
+.ilbi-map .ilbi-across td span::before {
+    content: none;
 }
 
 .ilbi-map .ilbi-across td span + span::before {
     content: "  /  ";
+    position: static;
     white-space: pre;
+    font-size: 1em;
+    line-height: inherit;
+    opacity: 1;
     color: var(--map-sub);
 }
 
