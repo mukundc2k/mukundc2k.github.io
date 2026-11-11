@@ -15,15 +15,15 @@ linkedin: mukundc2k
 orcid: 0000-0001-6526-649X
 
 short_bio: >-
-  over the last two years, i've been cornering LLMs with controlled linguistic contrasts, watching how they behave, and working backwards to which distinctions they display, ignore, or get stumped by. so far that's been
+  over the last two years, i've been cornering LLMs with controlled linguistic contrasts, watching how they behave, and working backwards to which distinctions they show, ignore, or get stumped by. so far that's been
   <b>(1)</b> what makes <b>linguistics olympiad puzzles</b> tricky for them (<a href="https://openreview.net/forum?id=fcRcl1EXc4">COLM, 2025</a>),
-  <b>(2)</b> whether they model <b>human linguistic variation</b> in Hindi-English verb code-mixing (<a href="https://doi.org/10.18653/v1/2026.findings-eacl.291">EACL, 2026</a>),
+  <b>(2)</b> whether they model <b>human linguistic variation</b> in Hindi-English verb code-mixing (<a href="https://doi.org/10.18653/v1/2026.findings-eacl.291">EACL Findings, 2026</a>),
   <b>(3)</b> how they process <b>hierarchical sequences</b> compared to crows, monkeys, children, and adults (CogSci abstract, 2026; journal version cooking),
   <b>(4)</b> a <b>taxonomy of translation difficulty</b> for the <a href="https://arxiv.org/abs/2609.04173">Last Translation Benchmark</a>, and
-  <b>(5)</b> whether LMs make the same mistakes as <b>second-language learners</b> through development (WIP).
+  <b>(5)</b> whether LMs make <b>second-language learner</b>-like mistakes across development (WIP).
   next up: a survey stitching these together, and <b>neurodivergence x AI</b>.<br><br>
   before this i completed my <b>MSc. in Computational Linguistics</b> at IIIT Hyderabad. linguistic complexity and how tech models it, was also the theme for my masters thesis on <b>pseudowords generation</b> (e.g. for LLM subword probes) and <b>native speaker evaluation design</b> in low-resource languages. this theme started inspiring me since i was a high schooler, solving actual linguistic reasoning puzzles for fun.<br><br>
-  everything else i've worked on, is slotted below in the grid inspired by my thesis: what i build to <b>contrast</b>, the <b>behaviour</b> i watch, the <b>interpretive layer</b> i pull out of it, and what i <b>compare</b> it against. rows run from language-first to mind-first, plus things that shipped in the wild.
+  everything else i've worked on, is slotted below in the grid inspired by my thesis: <b>contrast</b>s i use to setup water-tight experiments, the <b>behaviour</b> i look out for and the <b>interpret</b>ive tools i probe it with, and what i <b>compare</b> it against. rows run from language-first to mind-first, plus things that shipped in the wild.
   <span class="st-done">greens are done</span>, <span class="st-doing">purples are happening</span>, <span class="st-next">blues are just starting off</span>, join in! if a cell makes you go "huh?", that's on purpose, ask me :)
   <div class="ilbi-wrap">
   <table class="ilbi-map">
@@ -31,8 +31,7 @@ short_bio: >-
   <tr>
   <th></th>
   <th>contrasts<small>what i poke with</small></th>
-  <th>behaviour<small>what i peek into</small></th>
-  <th>interpretive layers<small>what i pick apart</small></th>
+  <th>behavioral interpretability<small>what i peek into, and pick apart</small></th>
   <th>comparisons<small>against whom, across what</small></th>
   </tr>
   </thead>
@@ -40,34 +39,30 @@ short_bio: >-
   <tr>
   <th>language-first</th>
   <td><span class="st-done">puzzles in languages nobody trained on</span><span class="st-done">translations that fight back</span></td>
-  <td><span class="st-done">code-mixed twitter morphology</span><span class="st-done">following the rules vs. spotting them</span></td>
-  <td><span class="st-done">typology that showed up uninvited</span><span class="st-done">what makes a translation hard</span><span class="st-done">five ways a fact can go wrong</span><span class="st-done">tamil sounds, written down for STT</span></td>
+  <td><span class="st-done">code-mixed twitter morphology</span><span class="st-done">following the rules vs. spotting them</span><span class="st-done">typology that showed up uninvited</span><span class="st-done">what makes a translation hard</span><span class="st-done">five ways a fact can go wrong</span><span class="st-done">tamil sounds, written down for STT</span></td>
   <td><span class="st-done">models × prompts × scale</span><span class="st-next">language change, theirs and ours</span><span class="st-next">language models from before they were large</span></td>
   </tr>
   <tr>
   <th>in between</th>
   <td><span class="st-done">one verb slot, two languages</span><span class="st-done">words that sound real but mean nothing</span><span class="st-doing">mistakes: natural, learner-made, and fake</span></td>
-  <td><span class="st-done">how surprised a model is</span><span class="st-done">how real a fake word sounds to native ears</span></td>
-  <td><span class="st-done">verb classes born from human disagreement</span><span class="st-doing">skills hiding behind error patterns</span></td>
+  <td><span class="st-done">verb classes born from human disagreement</span><span class="st-done">how real a fake word sounds to native ears</span><span class="st-doing">skills hiding behind error patterns</span><span class="st-done">how surprised a model is</span></td>
   <td><span class="st-done">native speakers vs. model families, sizes, and mixes</span><span class="st-doing">checkpoints, growing up like learners</span></td>
   </tr>
   <tr>
   <th>mind-first</th>
   <td><span class="st-done">hierarchies vs. straight lines</span><span class="st-done">sentences that shouldn't quite parse</span><span class="st-doing">how loneliness gets typed out</span></td>
-  <td><span class="st-done">empathy, measured in entropy</span><span class="st-done">what people believe about their passwords</span><span class="st-doing">whether MT helps the people who need it most</span></td>
-  <td><span class="st-doing">mechanisms, mixed and weighed</span><span class="st-done">what memory quietly does to number and case</span></td>
+  <td><span class="st-done">what people believe about their passwords</span><span class="st-done">what memory quietly does to number and case</span><span class="st-doing">whether MT helps the people who need it most</span><span class="st-done">empathy, measured in entropy</span><span class="st-doing">mechanisms, mixed and weighed</span></td>
   <td><span class="st-done">crows, monkeys, kids, adults, and four LLM generations</span><span class="st-next">neurodivergence × AI</span><span class="st-next">creativity, theirs vs. ours</span></td>
   </tr>
   <tr>
   <th>in the wild</th>
   <td><span class="st-done">synthetic data aimed at blind spots</span><span class="st-done">prompts built to break things</span></td>
-  <td><span class="st-done">chatbots that help the helpers, and the UI/UX they ship in</span><span class="st-done">tickets, summarised and re-ranked</span></td>
-  <td><span class="st-done">explanations for clusters that underperform</span><span class="st-done">guardrails for requirements that keep moving</span></td>
+  <td><span class="st-done">chatbots that help the helpers, and the UI/UX they ship in</span><span class="st-done">tickets, summarised and re-ranked</span><span class="st-done">explanations for clusters that underperform</span><span class="st-done">guardrails for requirements that keep moving</span></td>
   <td><span class="st-done">fairness across who's speaking</span><span class="st-done">dialects across 9+ indian languages</span></td>
   </tr>
   <tr class="ilbi-across">
   <th>across all of it</th>
-  <td colspan="4"><span class="st-doing">a survey of inductive linguistic behavioral interpretability</span><span class="st-doing">do the cells agree with each other?</span></td>
+  <td colspan="3"><span class="st-doing">a survey of inductive linguistic behavioral interpretability</span><span class="st-doing">do the cells agree with each other?</span></td>
   </tr>
   </tbody>
   </table>
