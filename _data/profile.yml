@@ -23,7 +23,7 @@ short_bio: >-
   <b>(5)</b> whether LMs make the same mistakes as <b>second-language learners</b> through development (WIP).
   next up: a survey stitching these together, and <b>neurodivergence x AI</b>.<br><br>
   before this i completed my <b>MSc. in Computational Linguistics</b> at IIIT Hyderabad. linguistic complexity and how tech models it, was also the theme for my masters thesis on <b>pseudowords generation</b> (e.g. for LLM subword probes) and <b>native speaker evaluation design</b> in low-resource languages. this theme started inspiring me since i was a high schooler, solving actual linguistic reasoning puzzles for fun.<br><br>
-  everything else i've poked at, re-sorted along the same pipeline: what i build to <b>contrast</b>, the <b>behaviour</b> i watch, the <b>interpretive layer</b> i pull out of it, and what i <b>compare</b> it against. rows run from language-first to mind-first, plus things that shipped in the wild.
+  everything else i've worked on, is slotted below in the grid inspired by my thesis: what i build to <b>contrast</b>, the <b>behaviour</b> i watch, the <b>interpretive layer</b> i pull out of it, and what i <b>compare</b> it against. rows run from language-first to mind-first, plus things that shipped in the wild.
   <span class="st-done">greens are done</span>, <span class="st-doing">purples are happening</span>, <span class="st-next">blues are just starting off</span>, join in! if a cell makes you go "huh?", that's on purpose, ask me :)
   <div class="ilbi-wrap">
   <table class="ilbi-map">
