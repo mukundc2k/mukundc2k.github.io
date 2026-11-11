@@ -23,7 +23,7 @@ short_bio: >-
   <b>(5)</b> whether LMs make <b>second-language learner</b>-like mistakes across development (WIP).
   next up: a survey stitching these together, and <b>neurodivergence x AI</b>.<br><br>
   before this i completed my <b>MSc. in Computational Linguistics</b> at IIIT Hyderabad. linguistic complexity and how tech models it, was also the theme for my masters thesis on <b>pseudowords generation</b> (e.g. for LLM subword probes) and <b>native speaker evaluation design</b> in low-resource languages. this theme started inspiring me since i was a high schooler, solving actual linguistic reasoning puzzles for fun.<br><br>
-  everything else i've worked on, is slotted below in the grid inspired by my thesis: <b>contrast</b>s i use to setup water-tight experiments, the <b>behaviour</b> i look out for and the <b>interpret</b>ive tools i probe it with, and what i <b>compare</b> it against. rows run from language-first to mind-first, plus things that shipped in the wild.
+  everything else i've worked on, is slotted below in the grid inspired by my thesis: <b>contrast</b>s i use to setup water-tight experiments, the <b>behaviour</b> i look out for and the <b>interpret</b>ive tools i probe it with, and what i <b>compare</b> it against. rows run from language-first to mind-first, plus things not on the language-mind spectrum, but in the wild.
   <span class="st-done">greens are done</span>, <span class="st-doing">purples are happening</span>, <span class="st-next">blues are just starting off</span>, join in! if a cell makes you go "huh?", that's on purpose, ask me :)
   <div class="ilbi-wrap">
   <table class="ilbi-map">
@@ -50,19 +50,19 @@ short_bio: >-
   </tr>
   <tr>
   <th>mind-first</th>
-  <td><span class="st-done">hierarchies vs. straight lines</span><span class="st-done">sentences that shouldn't quite parse</span><span class="st-doing">how loneliness gets typed out</span></td>
+  <td><span class="st-done">mechanism vs. behaviour</span><span class="st-done">sentences that shouldn't quite parse</span><span class="st-doing">how loneliness gets typed out</span></td>
   <td><span class="st-done">what people believe about their passwords</span><span class="st-done">what memory quietly does to number and case</span><span class="st-doing">whether MT helps the people who need it most</span><span class="st-done">empathy, measured in entropy</span><span class="st-doing">mechanisms, mixed and weighed</span></td>
-  <td><span class="st-done">crows, monkeys, kids, adults, and four LLM generations</span><span class="st-next">neurodivergence × AI</span><span class="st-next">creativity, theirs vs. ours</span></td>
+  <td><span class="st-done">crows, monkeys, kids, adults, and four LLM generations</span><span class="st-next">neurodivergence × AI</span><span class="st-next">historical linguistics</span><span class="st-next">creativity, theirs vs. ours</span></td>
   </tr>
   <tr>
   <th>in the wild</th>
   <td><span class="st-done">synthetic data aimed at blind spots</span><span class="st-done">prompts built to break things</span></td>
-  <td><span class="st-done">chatbots that help the helpers, and the UI/UX they ship in</span><span class="st-done">tickets, summarised and re-ranked</span><span class="st-done">explanations for clusters that underperform</span><span class="st-done">guardrails for requirements that keep moving</span></td>
+  <td><span class="st-done">chatbots that help the helpers, and its UI/UX</span><span class="st-done">jira tickets, summarised and re-ranked</span><span class="st-done">finding clusters and explaining patterns</span><span class="st-done">guardrails for dynamic requirements</span></td>
   <td><span class="st-done">fairness across who's speaking</span><span class="st-done">dialects across 9+ indian languages</span></td>
   </tr>
   <tr class="ilbi-across">
   <th>across all of it</th>
-  <td colspan="3"><span class="st-doing">a survey of inductive linguistic behavioral interpretability</span><span class="st-doing">do the cells agree with each other?</span></td>
+  <td colspan="3"><span class="st-doing">a survey of inductive linguistic behavioral interpretability</span><span class="st-doing">does this table form a coherent story?</span></td>
   </tr>
   </tbody>
   </table>
