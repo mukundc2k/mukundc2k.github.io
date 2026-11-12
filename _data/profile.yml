@@ -23,46 +23,44 @@ short_bio: >-
   <b>(5)</b> whether LMs make <b>second-language learner</b>-like mistakes across development (WIP).
   next up: a survey stitching these together, and <b>neurodivergence x AI</b>.<br><br>
   before this i completed my <b>MSc. in Computational Linguistics</b> at IIIT Hyderabad. linguistic complexity and how tech models it, was also the theme for my masters thesis on <b>pseudowords generation</b> (e.g. for LLM subword probes) and <b>native speaker evaluation design</b> in low-resource languages. this theme started inspiring me since i was a high schooler, solving actual linguistic reasoning puzzles for fun.<br><br>
-  everything else i've worked on, is slotted below in the grid inspired by my thesis: <b>contrast</b>s i use to setup water-tight experiments, the <b>behaviour</b> i look out for and the <b>interpret</b>ive tools i probe it with, and what i <b>compare</b> it against. rows run from language-first to mind-first, plus things not on the language-mind spectrum, but in the wild.
+  everything i've worked on, is slotted below in the grid inspired by my thesis: rows run from <b>linguistic</b>-heavy to <b>cognitive</b>-heavy work, and columns from <b>controlled</b> stimuli to <b>naturalistic</b> data. industry work that isn't about how language behaves lives on <a href="/experience">/industry</a>.
   <span class="st-done">greens are done</span>, <span class="st-doing">purples are happening</span>, <span class="st-next">blues are just starting off</span>, join in! if a cell makes you go "huh?", that's on purpose, ask me :)
   <div class="ilbi-wrap">
   <table class="ilbi-map">
   <thead>
   <tr>
   <th></th>
-  <th>contrasts<small>what i poke with</small></th>
-  <th>behavioral interpretability<small>what i peek into, and pick apart</small></th>
-  <th>comparisons<small>against whom, across what</small></th>
+  <th>controlled<small>stimuli i construct</small></th>
+  <th>mixed<small>controlled frames around natural phenomena</small></th>
+  <th>naturalistic<small>language as it occurs in the wild</small></th>
   </tr>
   </thead>
   <tbody>
   <tr>
-  <th>language-first</th>
-  <td><span class="st-done">puzzles in languages nobody trained on</span><span class="st-done">translations that fight back</span></td>
-  <td><span class="st-done">code-mixed twitter morphology</span><span class="st-done">following the rules vs. spotting them</span><span class="st-done">typology that showed up uninvited</span><span class="st-done">what makes a translation hard</span><span class="st-done">five ways a fact can go wrong</span><span class="st-done">tamil sounds, written down for STT</span></td>
-  <td><span class="st-done">models × prompts × scale</span><span class="st-next">language change, theirs and ours</span><span class="st-next">language models from before they were large</span></td>
+  <th>linguistic-heavy</th>
+  <td><span class="st-done">unveiLing (COLM '25): which typological features make linguistics olympiad puzzles hard for LLMs, across models, prompts, and scale</span></td>
+  <td><span class="st-done">Hinglish verb code-mixing (EACL '26): whether LLM perplexities mirror native speakers' verb-choice variation, across model families, sizes, and language mixes</span><span class="st-done">FICLE (ECML PKDD '23): a dataset and classifiers for five linguistically defined types of factual inconsistency, with spans</span></td>
+  <td><span class="st-done">Last Translation Benchmark (arXiv '26): a source-side taxonomy of translation difficulty across 109 languages, tested on state-of-the-art systems</span><span class="st-done">code-mixed twitter morphology</span><span class="st-done">Tamil phonological transcription rules for speech-to-text, within dialectal variation across 9+ Indian languages (Navana Tech)</span><span class="st-done">Alexa: explanations for underperforming utterance clusters, from TF-IDF keyword patterns to contrastive few-shot prompting (Amazon)</span><span class="st-done">Alexa: multilingual synthetic data and adversarial prompting to reduce bias across demographic clusters (Amazon)</span></td>
   </tr>
   <tr>
-  <th>in between</th>
-  <td><span class="st-done">one verb slot, two languages</span><span class="st-done">words that sound real but mean nothing</span><span class="st-doing">mistakes: natural, learner-made, and fake</span></td>
-  <td><span class="st-done">verb classes born from human disagreement</span><span class="st-done">how real a fake word sounds to native ears</span><span class="st-doing">skills hiding behind error patterns</span><span class="st-done">how surprised a model is</span></td>
-  <td><span class="st-done">native speakers vs. model families, sizes, and mixes</span><span class="st-doing">checkpoints, growing up like learners</span></td>
+  <th>balanced</th>
+  <td><span class="st-done">pseudowords (MS thesis '23): an LSTM + IPA generator and native-speaker evaluation for Hindi and English pseudowords, tested on password memorability and aphasia classification</span></td>
+  <td><span class="st-doing">Learner-Error Trajectories (ETH Zürich, WIP): whether LMs become sensitive to L2-English learner errors over training checkpoints, profiled with item response theory</span></td>
+  <td><span class="st-doing">Khmer MT quality and usability for immigrants</span></td>
   </tr>
   <tr>
-  <th>mind-first</th>
-  <td><span class="st-done">mechanism vs. behaviour</span><span class="st-done">sentences that shouldn't quite parse</span><span class="st-doing">how loneliness gets typed out</span></td>
-  <td><span class="st-done">what people believe about their passwords</span><span class="st-done">what memory quietly does to number and case</span><span class="st-doing">whether MT helps the people who need it most</span><span class="st-done">empathy, measured in entropy</span><span class="st-doing">mechanisms, mixed and weighed</span></td>
-  <td><span class="st-done">crows, monkeys, kids, adults, and four LLM generations</span><span class="st-next">neurodivergence × AI</span><span class="st-next">historical linguistics</span><span class="st-next">creativity, theirs vs. ours</span></td>
+  <th>cognitive-heavy</th>
+  <td><span class="st-doing">Stochastic Parrot (CogSci '26 abstract, journal version in progress): hierarchical vs. linear sequence processing in four LLM generations, compared with crows, monkeys, children, and adults</span><span class="st-done">Hindi representation distortion (ACCS '25): how number features and noun case distort in native speakers' memory during sentence comprehension</span><span class="st-done">password metacognition (CogSci '21): beliefs about passphrase memorability vs. security, across demographics</span></td>
+  <td><span class="ilbi-open">nothing here yet, open to ideas</span></td>
+  <td><span class="st-done">entropy-based quantification of empathy in NLP datasets and model outputs</span><span class="st-doing">online loneliness expressions</span></td>
   </tr>
-  <tr>
-  <th>in the wild</th>
-  <td><span class="st-done">synthetic data aimed at blind spots</span><span class="st-done">prompts built to break things</span></td>
-  <td><span class="st-done">chatbots that help the helpers, and its UI/UX</span><span class="st-done">jira tickets, summarised and re-ranked</span><span class="st-done">finding clusters and explaining patterns</span><span class="st-done">guardrails for dynamic requirements</span></td>
-  <td><span class="st-done">fairness across who's speaking</span><span class="st-done">dialects across 9+ indian languages</span></td>
+  <tr class="ilbi-across">
+  <th>starting off, not placed yet</th>
+  <td colspan="3"><span class="st-next">historical linguistics × LLMs</span><span class="st-next">the same approach on pre-LLM language models</span><span class="st-next">creativity × LLMs</span><span class="st-next">neurodivergence × AI</span></td>
   </tr>
   <tr class="ilbi-across">
   <th>across all of it</th>
-  <td colspan="3"><span class="st-doing">a survey of inductive linguistic behavioral interpretability</span><span class="st-doing">does this table form a coherent story?</span></td>
+  <td colspan="3"><span class="st-doing">a survey of inductive linguistic behavioral interpretability</span><span class="st-doing">convergence tests: do the same effects recur across projects?</span></td>
   </tr>
   </tbody>
   </table>

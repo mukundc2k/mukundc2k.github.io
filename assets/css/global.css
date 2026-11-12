@@ -150,10 +150,13 @@ strong {
     width: 14%;
 }
 
-/* behavioral interpretability holds the most, so it gets the widest column;
-   contrasts and comparisons split the rest */
+/* controlled 27%, mixed 24%; naturalistic holds the most and takes the rest (35%) */
+.ilbi-map thead th:nth-child(2) {
+    width: 27%;
+}
+
 .ilbi-map thead th:nth-child(3) {
-    width: 36%;
+    width: 24%;
 }
 
 /* row labels stay put while the table scrolls sideways on phones */
@@ -198,7 +201,18 @@ strong {
     margin-top: 0.7em;
 }
 
-/* the "across all of it" row stays one centred line, items split by a slash */
+/* an empty cell's placeholder: muted, no marker */
+.ilbi-map td .ilbi-open {
+    padding-left: 0;
+    color: var(--map-sub);
+    font-style: italic;
+}
+
+.ilbi-map td .ilbi-open::before {
+    content: none;
+}
+
+/* the bottom rows ("starting off", "across all of it") stay one centred line, items split by a slash */
 .ilbi-map .ilbi-across td {
     text-align: center;
 }
