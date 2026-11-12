@@ -11,20 +11,23 @@ body_attr: >-
 <div class="row">
     <div class="col-12 col-lg-10">
         {% for category in funstuff_by_category %}
-        <h2 class="pt-4" id="category-{{ category.name }}">{{ category.name }}</h2>
+        {% comment %} slugify turns "movies + series" into "movies-series": scrollspy can't use ids with spaces or "+" {% endcomment %}
+        <section class="joy-section">
+        <h2 class="pt-4" id="category-{{ category.name | slugify }}">{{ category.name }}</h2>
         <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
             {% assign sorted_items = category.items | sort: "date" | reverse %}
             {% for item in sorted_items %}
                 {% include widgets/funstuff_item.html item=item %}
             {% endfor %}
         </div>
+        </section>
         {% endfor %}
     </div>
 
     <div class="col-2 d-none d-lg-block">
         <div id="navbar-category" class="nav nav-pills flex-column sticky-top" style="top: 80px">
             {% for category in funstuff_by_category %}
-            <a class="nav-link d-block" href="#category-{{ category.name }}">{{ category.name }}</a>
+            <a class="nav-link d-block" href="#category-{{ category.name | slugify }}">{{ category.name }}</a>
             {% endfor %}
         </div>
     </div>

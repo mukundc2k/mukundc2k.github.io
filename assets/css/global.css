@@ -236,6 +236,21 @@ strong {
     color: var(--map-sub);
 }
 
+/* ---------- /joy page ---------- */
+
+/* jumping to a category lands its heading just below the fixed navbar
+   (5rem is the navbar space; keep it under the page's data-offset of 100px
+   so the clicked category is the one that gets highlighted) */
+h2[id^="category-"] {
+    scroll-margin-top: 5rem;
+}
+
+/* the last category is at least a screen tall, so the bottom categories
+   can still scroll up to the top when you click them */
+.joy-section:last-child {
+    min-height: calc(100vh - 5rem);
+}
+
 /* the crossed-out old table: smaller, so the new map reads first */
 img.ilbi-old {
     display: block;
