@@ -18,7 +18,7 @@ short_bio: >-
   over the last two years, i've been cornering LLMs with controlled linguistic contrasts, watching how they behave, and working backwards to which distinctions they show, ignore, or get stumped by. so far that's been
   <b>(1)</b> what makes <b>linguistics olympiad puzzles</b> tricky for them (<a href="https://openreview.net/forum?id=fcRcl1EXc4">COLM, 2025</a>),
   <b>(2)</b> whether they model <b>human linguistic variation</b> in Hindi-English verb code-mixing (<a href="https://doi.org/10.18653/v1/2026.findings-eacl.291">EACL, 2026</a>),
-  <b>(3)</b> how they process <b>hierarchical sequences</b> compared to crows, monkeys, children, and adults (CogSci abstract, 2026; journal version cooking),
+  <b>(3)</b> how they process <b>hierarchical sequences</b> compared to crows, monkeys, children, and adults (<a href="https://escholarship.org/uc/item/92x8p24r">CogSci abstract, 2026</a>; journal version cooking),
   <b>(4)</b> a <b>taxonomy of translation difficulty</b> for the <a href="https://arxiv.org/abs/2609.04173">Last Translation Benchmark</a>, and
   <b>(5)</b> whether LMs make <b>second-language learner</b>-like mistakes across development (WIP).
   next up: a survey stitching these together, and <b>neurodivergence x AI</b>.<br><br>
