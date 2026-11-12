@@ -26,3 +26,6 @@ navbar_title: Home
     title='<i class="fas fa-star"></i> Selected Publications'
 %}
 {% endif %}
+
+{% comment %} papers as citations; also powers the co-author tooltips in the grid {% endcomment %}
+{% include widgets/citation_list.html %}

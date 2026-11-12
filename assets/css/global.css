@@ -255,6 +255,56 @@ strong {
     color: var(--map-sub);
 }
 
+/* ---------- homepage: papers as citations ---------- */
+
+.ilbi-cites {
+    padding-left: 1.6em;
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+.ilbi-cites li + li {
+    margin-top: 0.6em;
+}
+
+/* co-author tooltips on the grid's paper links */
+.ilbi-tip.show {
+    opacity: 1;
+}
+
+.ilbi-tip .tooltip-inner {
+    max-width: 340px;
+    padding: 8px 10px;
+    text-align: left;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.85rem;
+    line-height: 1.35;
+    color: var(--ink, #fff);
+    background-color: var(--bg, #000);
+    border: 1px solid var(--rule, #000);
+}
+
+/* author names carry .text-body, which would be dark-on-dark here */
+.ilbi-tip .text-body {
+    color: inherit !important;
+}
+
+.ilbi-tip mark {
+    display: block;
+    margin-top: 4px;
+}
+
+.ilbi-tip.bs-tooltip-top .arrow::before,
+.ilbi-tip.bs-tooltip-auto[x-placement^="top"] .arrow::before {
+    border-top-color: var(--rule, #000);
+}
+
+.ilbi-tip.bs-tooltip-bottom .arrow::before,
+.ilbi-tip.bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+    border-bottom-color: var(--rule, #000);
+}
+
 /* ---------- /joy page ---------- */
 
 /* jumping to a category lands its heading just below the fixed navbar
@@ -413,6 +463,14 @@ hr,
    which hides the light text; use the card brown instead (inline styles need !important) */
 .row.d-md-none > .w-100[style*="255,255,255"] {
     background-color: rgba(59, 42, 33, 0.92) !important;
+}
+
+/* the "* equal contribution, # corresponding author" note: bootstrap paints <mark>
+   pale yellow, which hides light text; make it a quiet note instead */
+mark {
+    padding: 0;
+    background-color: transparent;
+    color: var(--ink-soft);
 }
 
 /* white-background images (table PNGs, figure covers) look like holes in the page;

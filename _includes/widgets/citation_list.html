@@ -1,0 +1,56 @@
+{% comment %}
+  homepage: every paper as a citation (authors, title, venue), newest first.
+  authors come from the same author_list.html the /papers page uses, so they look identical.
+  the grid's paper links borrow their tooltip from here: a link to /papers#some-title
+  shows the authors kept in the hidden template of the citation with id cite-some-title.
+{% endcomment %}
+{% assign cite_pubs = site.publications | sort: "date" | reverse %}
+<div class="row mt-3">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-4 p-md-5">
+                <h4 class="mb-3">papers</h4>
+                <ol class="ilbi-cites">
+                    {% for item in cite_pubs %}
+                    {% assign cite_slug = item.title | slugify %}
+                    {% capture cite_authors %}{% include widgets/author_list.html authors=item.authors %}{% endcapture %}
+                    <li id="cite-{{ cite_slug }}">
+                        {% comment %} the citation shows the names without the "(# corresponding author)" legend;
+                           the tooltip gets the full version, legend included, from the hidden template {% endcomment %}
+                        <template class="cite-tip">{{ cite_authors }}</template>
+                        <span class="cite-authors">{{ cite_authors | split: "<mark>" | first | strip }}</span>.
+                        {% assign title_end = item.title | slice: -1, 1 %}
+                        <a href="{{ '/papers' | relative_url }}#{{ cite_slug }}">{{ item.title }}</a>{% unless title_end == "?" or title_end == "!" or title_end == "." %}.{% endunless %}
+                        {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }}{{ item.pub_last }}.
+                    </li>
+                    {% endfor %}
+                </ol>
+                <p class="ilbi-cites-note small text-muted mb-0">* equal contribution, <sup>#</sup> corresponding author</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// co-author tooltips on the grid's paper links. waits for DOMContentLoaded because
+// the layout loads jQuery and Bootstrap after the page content.
+document.addEventListener('DOMContentLoaded', function () {
+    if (!window.jQuery || !jQuery.fn.tooltip) return;
+    // author_list ends with a <mark> legend; Bootstrap's tooltip filter drops <mark> unless allowed
+    var allowed = jQuery.extend({}, jQuery.fn.tooltip.Constructor.Default.whiteList, { mark: [] });
+    document.querySelectorAll('.ilbi-map a[href^="/papers#"]').forEach(function (link) {
+        var slug = link.getAttribute('href').split('#')[1];
+        var authors = document.querySelector('#cite-' + slug + ' template.cite-tip');
+        if (!authors) return;
+        jQuery(link).tooltip({
+            title: authors.innerHTML,
+            html: true,
+            placement: 'top',
+            container: 'body',   // the grid scrolls sideways on phones, which would clip a tooltip inside it
+            boundary: 'window',
+            whiteList: allowed,
+            template: '<div class="tooltip ilbi-tip" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>'
+        });
+    });
+});
+</script>
