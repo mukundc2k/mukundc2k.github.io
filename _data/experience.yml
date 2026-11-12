@@ -1,4 +1,5 @@
 - position: "Summer Intern"
+  anchor: "eth"
   company: "Mrinmaya Sachan's LRE lab, ETH Zürich"
   start_date: 2026-05-12
   end_date: 2026-08-15
@@ -27,6 +28,7 @@
     - "Worked with the team to build NER and relationship extraction methods for legal applications."
 
 - position: "Applied Science Intern"
+  anchor: "alexa-2023"
   company: "Amazon, Alexa"
   start_date: 2023-01-01
   end_date: 2023-06-30
@@ -36,6 +38,7 @@
     - "Generated explanations for underperforming clusters using methods ranging from TF-IDF to contrastive prompting."
 
 - position: "Applied Science Intern"
+  anchor: "alexa-2022"
   company: "Amazon, Alexa"
   start_date: 2022-05-01
   end_date: 2022-07-31
@@ -45,6 +48,7 @@
     - "Conducted experiments to understand AI behaviour with explainable methods."
 
 - position: "Intern Computational Linguist"
+  anchor: "navana"
   company: "Navana Tech"
   start_date: 2021-10-01
   end_date: 2022-04-30

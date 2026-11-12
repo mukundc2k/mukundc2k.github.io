@@ -7,7 +7,8 @@ navbar_title: Experience
     <div class="col-12">
         {% if site.data.experience %}
             {% for exp in site.data.experience %}
-            <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+            {% comment %} an anchor in experience.yml gives the card an id, so the homepage grid can link straight to it {% endcomment %}
+            <div class="my-0 p-0 bg-white shadow-sm rounded-sm exp-anchor"{% if exp.anchor %} id="{{ exp.anchor }}"{% endif %}>
                 <div class="p-3">
                     <h4>{{ exp.position }}</h4>
                     <h5>{{ exp.company }}</h5>

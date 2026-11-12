@@ -15,7 +15,10 @@ body_attr: >-
         <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
         <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
             {% for item in year.items %}
+                {% comment %} each paper gets an id from its title, so the homepage grid can link straight to it {% endcomment %}
+                <div class="paper-anchor" id="{{ item.title | slugify }}">
                 {% include widgets/publication_item.html item=item %}
+                </div>
             {% endfor %}
         </div>
         {% endfor %}

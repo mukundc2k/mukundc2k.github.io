@@ -212,6 +212,25 @@ strong {
     content: none;
 }
 
+/* links in the map keep the item's status colour and the table font
+   (the global a rule would make them green Courier); a dotted underline marks them */
+.ilbi-map td a,
+.ilbi-map td a:hover,
+.ilbi-map td a:focus {
+    color: inherit;
+    font-family: inherit;
+}
+
+.ilbi-map td a {
+    text-decoration: underline dotted;
+    text-underline-offset: 2px;
+}
+
+.ilbi-map td a:hover,
+.ilbi-map td a:focus {
+    text-decoration-style: solid;
+}
+
 /* the bottom rows ("starting off", "across all of it") stay one centred line, items split by a slash */
 .ilbi-map .ilbi-across td {
     text-align: center;
@@ -249,6 +268,22 @@ h2[id^="category-"] {
    can still scroll up to the top when you click them */
 .joy-section:last-child {
     min-height: calc(100vh - 5rem);
+}
+
+/* ---------- /papers and /industry: arriving from a homepage link ---------- */
+
+/* lands the paper or job just below the fixed navbar */
+.paper-anchor,
+.exp-anchor {
+    scroll-margin-top: 5rem;
+}
+
+/* and outlines it in brat green so you can see where you landed
+   (outline, not box-shadow: the brown theme strips shadows with !important) */
+.paper-anchor:target,
+.exp-anchor:target {
+    outline: 2px solid var(--brat);
+    outline-offset: -2px;
 }
 
 /* the crossed-out old table: smaller, so the new map reads first */
@@ -372,6 +407,12 @@ hr,
 .img-thumbnail {
     background-color: var(--surface);
     border-color: var(--rule);
+}
+
+/* /papers on phones: the theme washes each paper in near-white with an inline style,
+   which hides the light text; use the card brown instead (inline styles need !important) */
+.row.d-md-none > .w-100[style*="255,255,255"] {
+    background-color: rgba(59, 42, 33, 0.92) !important;
 }
 
 /* white-background images (table PNGs, figure covers) look like holes in the page;
